@@ -1,7 +1,7 @@
 # DCSS english
 
-Practice with the vocabulary an phrases in DCSS game
+Practice with the vocabulary and phrases in the DCSS game
 
 ## Install
 
-Download crawl-master in the root of this project
+Download crawl-master into the root of this project

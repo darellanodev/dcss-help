@@ -1,12 +1,14 @@
-# DCSS english
+# DCSS English
 
-Practice with the vocabulary and phrases in the DCSS game
+Practice the vocabulary and phrases used in the DCSS game.
 
 ## Install
 
-Download crawl-master into the root of this project
+Download [crawl-master](https://github.com/crawl/crawl) and [dcss-es-main](https://github.com/Ricard1974/dcss-es) into the `sources` folder of this project.
 
-## Sources
+The final structure should look like this:
 
-- <https://github.com/crawl/crawl>
-- <https://github.com/Ricard1974/dcss-es>
+\`\`\`
+sources/crawl-master
+sources/dcss-es-main
+\`\`\`

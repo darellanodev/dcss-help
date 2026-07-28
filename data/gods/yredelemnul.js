@@ -1,0 +1,16 @@
+export default {
+    "name": "Yredelemnul",
+    "title": "the Fallen",
+    "description": {
+        "en": "Cast down by the good gods eons ago, Yredelemnul seeks to despoil their creations and chain all living souls within their inexorable grip. Followers who would conquer in Yredelemnul's name are granted the power to reap an army of the dead and bind powerful souls into eternal service - provided they can sweep across the land in a tide as inexorable as their god.",
+        "es": "Yredelemnul el Oscuro es un dios malvado adorado por los que buscan poderes sobre la muerte y los no-muertos. Los seguidores, que deben oponerse a todas las cosas sagradas, pueden alzar legiones de serviles no-muertos, y ganar varios poderes útiles (si bien desagradables). Yredelemnul aprecia las muertes, pero prefiere que los cadáveres sean usados en lugar de sacrificados. Destruir seres artificiales también se ve favorecido, ya que no son seres vivos ni sujetos a la muerte o a la no-muerte."
+    },
+    "powers": {
+        "en": "Followers of Yredelemnul carry the Black Torch, allowing them to gather souls and surround themselves in darkness. They can raise foes who die in the light of the torch as mindless servants, hurl torchlight to scour the living and empower the dead, and bind especially noteworthy souls to fight for them in death with the full capacities they held in life. Especially devout worshippers can even call down the inescapable grip of the Fallen directly, binding foes helplessly in place as the very life is sucked from them. Yredelemnul will also dispatch undead servants to aid followers at the start of each new conquest.",
+        "es": null
+    },
+    "wrath": {
+        "en": "Those who anger Yredelemnul find themselves beset by legions of the dead. Sometimes, the god will also intervene directly, binding the unfaithful in inescapable chains as Yredelemnul's dark army demonstrates the price of betrayal.",
+        "es": null
+    }
+};

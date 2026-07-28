@@ -1,0 +1,16 @@
+export default {
+    "name": "Okawaru",
+    "title": "Warmaster",
+    "description": {
+        "en": "Okawaru is a dangerous and powerful god of battle. Followers are expected to constantly prove themselves in combat, and may channel Okawaru's might to enhance their prowess. Okawaru demands that followers prove themselves by their own strength alone, and so worshippers are forbidden from gaining allies by any means. Okawaru pays little heed to easy victories, but will reward worshippers for heroic feats against mighty foes.",
+        "es": "Okawaru es un poderoso y peligroso dios de la guerra. Los seguidores pueden ganar varios poderes útiles en combate además de ciertas recompensas, pero deben constantemente probarse a sí mismos derrotando otras criaturas. Okawaru prefiere gestos heroicos contra poderosos enemigos, y no presta mucha atención a victorias fáciles. Okawaru menosprecia a quienes hieren a sus aliados."
+    },
+    "powers": {
+        "en": "Followers of Okawaru will gain the ability to temporarily increase their skills in combat, and, much later, to deal much faster blows. Okawaru will eventually gift followers with ammunition, weapons and armour. The most favoured of Okawaru may challenge their foes to honourable single combat.",
+        "es": null
+    },
+    "wrath": {
+        "en": "Okawaru's most vicious warriors are sent against rebellious servants. Novices find themselves swarmed by packs of ogres and gnolls, while champions are surrounded by titans and elvish blademasters.",
+        "es": null
+    }
+};

@@ -1,0 +1,16 @@
+export default {
+    "name": "Nemelex Xobeh",
+    "title": "the Trickster",
+    "description": {
+        "en": "Nemelex is a strange and unpredictable chaotic trickster god, whose powers are invoked through magical packs of cards painted in the ichor of demons. Followers will be granted decks of cards as they traverse the dungeon, and are encouraged to trust in the cards to provide them with divine assistance. However, the Trickster can also ensure that fortune favours the bold.",
+        "es": "Nemelex es un dios tramposo e impredecible, cuyos poderes pueden ser invocados mediante paquetes de cartas mágicas pintadas con el icor de demonios. Sus seguidores deben explorar el mundo, a cambio recibirán barajas de cartas. Ellos deben confiar en las cartas y usarlas tanto como sea posible. Además, Nemelex asegura que la fortuna favorece al más valiente."
+    },
+    "powers": {
+        "en": "The Trickster's followers gain various ways to influence fate when playing their cards. The effects of the cards will be more powerful with higher piety and with greater Invocations skill. Later, followers will gain powerful abilities to manipulate the cards, allowing them to choose one of three drawn cards, to gain the effects of multiple cards at once, and finally to stack decks and re-order their contents.",
+        "es": null
+    },
+    "wrath": {
+        "en": "Those who abandon Nemelex Xobeh have all of their gifted decks revoked immediately. They are also regularly forced to draw from the deck of Punishment, inflicting a range of unpleasant effects including draining, torment and polymorphing, as well as calling upon other gods to assist in inflicting wrath.",
+        "es": null
+    }
+};

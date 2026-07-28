@@ -1,0 +1,16 @@
+export default {
+    "name": "Dithmenos",
+    "title": "the Shrouded",
+    "description": {
+        "en": "Dithmenos is the god of night and of things half-seen in flickering torchlight. Worshipped by actors as often as thieves, followers of Dithmenos can learn to control their own shadow as if it were an extension of their body - misdirecting onlookers and acting upon the world with force as tangible as anything that has ever been imagined lurking in the dark.",
+        "es": "Dithmenos el sombrío desea que todo sea oscuridad. Sus seguidores ganan una afinidad extraña y sobrenatural sobre las sombras en su entorno. Este dios odia el fuego, el cual liberó hace tiempo a los mortales de la tiranía de las sombras; su uso está prohibido por sus seguidores. Dithmenos favorece a quienes destruyan cualquier fuente de fuego."
+    },
+    "powers": {
+        "en": "Followers of Dithmenos are surrounded by an unnatural quiet, which helps the sounds they make go unnoticed. As they rise in devotion, they will find their own shadow begins to imitate some of their actions, attacking when they attack and even casting shadowy magics that mimic the form - if not the substance - of whichever schools of magic they had been utilising. More devout worshippers additionally gain the ability to swap places with their shadow to mislead enemies, grasp other beings' shadows to unleash their magic on the worshipper's behalf, and finally call down a night so dark that it hides all denizens of the dungeon from each other.",
+        "es": null
+    },
+    "wrath": {
+        "en": "When angered, Dithmenos turns the shadows against victims. Monsters emerge from the darkness, both illusions woven from shadow and the very shadow themselves turning against sinners. Dithmenos' subtle punishments are, if anything, more dangerous: victims find the shadows ripped away from them, hunted with nowhere to hide; or find themselves smothered in shadow and sleeping, perhaps forever.",
+        "es": null
+    }
+};

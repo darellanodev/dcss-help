@@ -1,0 +1,16 @@
+export default {
+    "name": "Kikubaaqudgha",
+    "title": "",
+    "description": {
+        "en": "Kikubaaqudgha is a terrible Demon-God, served by those who wish to indulge in the powers of death. An evil god, Kikubaaqudgha requires worshippers to cause the death and destruction of as many creatures as possible. In exchange, Kikubaaqudgha offers great assistance to the aspiring necromancer: a supply of useful bodies, knowledge of dark magic, and protection against necromantic backlash.",
+        "es": "Kikubaaqudgha es un terrible dios demonio, al que sirven aquellos que quieren manipular los poderes de la muerte. Kikubaaqudgha es una deidad maligna y demanda muertes de criaturas vivas y de demonios tan a menudo como sea posible. A cambio, Kikubaaqudgha ofrece gran asistencia a quien aspire ser un nigromante: libros de hechizos repletos de magia negra, protección y una vasta fuente de cadáveres directamente del mausoleo de Kikubaaqudgha."
+    },
+    "powers": {
+        "en": "Kikubaaqudgha will enhance servants' necromantic prowess with gifts of Necromancy spells. Kikubaaqudgha will protect followers from the effects of necromantic miscasts and death curses, and may even shield them from unholy torment. Followers can unearth dying wretches as necromantic fodder, and may invoke the sign of ruin to harm their enemies. Kikubaaqudgha will eventually allow followers to either receive knowledge of the most forbidden necromantic magic, or to have their weapon imbued with pain.",
+        "es": null
+    },
+    "wrath": {
+        "en": "Kikubaaqudgha's wrath brings forth all the dread powers of necromancy. Victims may witness the devastating Sign of Ruin form upon themselves, or both doomed and drained without any respect for their negative energy resistance. Furthermore, Kikubaaqudgha's gifts become tainted: the dead rise again as foes, and those that attempt to use necromantic magic to fend off wrath will find it backfiring on them when least expected.",
+        "es": null
+    }
+};

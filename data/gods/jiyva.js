@@ -1,0 +1,16 @@
+export default {
+    "name": "Jiyva",
+    "title": "",
+    "description": {
+        "en": "Jiyva is the ancient deity of the slimes. Followers are expected to support the spread and satiation of their fellow slimes by allowing them to consume items, and are prevented from harming any slimes. Especially favoured followers will become as shapeless as their god, mutating wildly.",
+        "es": "Jiyva es la antigua y caótica deidad de los limos. Sus seguidores deben apoyar la diseminación y alimentación de sus camaradas permitiéndoles consumir objetos, y tienen prohibido dañar a cualquier limo. Jiyva ocasionalmente incluso consumirá objetos dejados en alguna parte del calabozo. Seguidores especialmente favorecidos se volverán tan carentes de forma como su dios a medida que sus atributos y mutaciones van cambiando bajo la influencia de Jiyva."
+    },
+    "powers": {
+        "en": "Jiyva will gradually fill the dungeon with jellies. These and any other fellow slimes will rapidly consume nearby items, as well as slowly consuming items from elsewhere in the dungeon. As they spread slime across more of the dungeon, Jiyva will grant followers increasingly rapid health and magic regeneration, and will begin mutating them to better reflect Jiyva's image. Followers will later become able to call forth acidic ooze from the walls of the dungeon, and to turn monsters to slime with a touch.",
+        "es": null
+    },
+    "wrath": {
+        "en": "Jiyva's vengeance is swift and gurgling. All slimes turn against those who offend Jiyva, and Jiyva ensures a plentiful supply of further slimes. Victims, too, will find their own bodies becoming unstable; acquiring debilitating mutations or contamination, as well as having any gifts of slime mutations stripped away from them.",
+        "es": null
+    }
+};

@@ -1,0 +1,16 @@
+export default {
+    "name": "Cheibriados",
+    "title": "the Contemplative",
+    "description": {
+        "en": "Cheibriados is a god of deliberation. Those following Cheibriados travel more slowly the further they progress in their faith, and are forbidden from using any means to hasten themselves. In the process of so imitating their god, they attain perfection of mind and body, and the mysteries of time unfold before them. Especially devout followers may even momentarily abandon the flow of time and its needless disturbances.",
+        "es": "Cheibriados es un dios que medita en el misterio del tiempo. Aquellos que elijan seguir su camino aprenderán a desprenderse de las prisas innecesarias, enlentecerse y volver lentos a los demás, y a dañar a aquellos que rechacen tal situación. Seguidores especialmente devotos pueden incluso abandonar temporalmente el flujo del tiempo y sus innecesarias molestias."
+    },
+    "powers": {
+        "en": "Followers of Cheibriados move more slowly as they gain favour. As they move slower, worshippers of Cheibriados are granted increased attributes. Cheibriados rewards the faithful with the power to slow other creatures and the power to briefly distort the flow of time. Devout worshippers will gain the ability to inflict great harm on all those who move more quickly than they do, and finally the ability to step out of the flow of time entirely.",
+        "es": "Los seguidores de Cheibriados se mueven más lentamente a medida que ganan favor, y son recompensados por matar a criaturas que sean más rápidas que ellos. Moverse demasiado deprisa o usar armas mágicamente aceleradas está mal visto. Cheibriados recompensa a los fieles con un metabolismo lento, el poder de enlentecer a otras criaturas, el poder de distorsionar el flujo del tiempo, el poder de dañar a aquellos que se muevan más deprisa que ellos y, finalmente, la habilidad de abandonar el flujo del tiempo por completo."
+    },
+    "wrath": {
+        "en": "Offenders against Cheibriados will find their movements remain slow while the attention of Cheibriados remains upon them, and may have any magical hasting stripped away. They may also become further slowed, be put to sleep, or be beset by the unparalleled volume of the inevitable passage of time ringing throughout the Dungeon.",
+        "es": null
+    }
+};

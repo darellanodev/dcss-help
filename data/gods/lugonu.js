@@ -1,0 +1,16 @@
+export default {
+    "name": "Lugonu",
+    "title": "the Unformed",
+    "description": {
+        "en": "Banished to the chaotic realm of the Abyss, Lugonu the Unformed seeks followers to spread bloodshed and corruption in the overworld. Those who gain Lugonu's favour will be granted some of the power of the Abyss itself, allowing them to call forth eldritch horrors, and even to travel between the overworld and the Abyss at will.",
+        "es": "Lugonu, «informe», se revela en el caos del Abismo. Sus seguidores son enviados para causar masacres y corromper al mundo superior, y deben hacerlo sin descanso para ganar el favor de Lugonu. Quienes ganen el favor de Lugonu heredan algo de su poder sobre el Abismo, permitiéndoles invocar horres macabros, incluso viajar entre el Abismo y el mundo superior a voluntad."
+    },
+    "powers": {
+        "en": "Followers of Lugonu gain powers to depart the Abyss at will, to banish monsters there, and to flee back inside when needed. Lugonu will also banish nearby foes if any other god attempts to interfere with their followers. Later, followers will be able to corrupt the ordered world, opening a gate for creatures of the Abyss to pass through, and to gate themselves directly into this realm of chaos. Lugonu will protect followers who unwield weapons imbued with the distorting energies of the Abyss, and eventually will offer to distort a follower's melee weapon. Lugonu expects followers to spread unceasing chaos in the overworld, and as such does not grant piety to worshippers while they remain in the Abyss itself.",
+        "es": null
+    },
+    "wrath": {
+        "en": "Lugonu's ire renders the barrier between reality and the Abyss weak and permeable. Space warps, hurling victims across the dungeon, or even directly into the Abyss. Lugonu also reaches out and sends the chaotic inhabitants of the Abyss against victims, with veteran adventurers facing the greatest horrors of the Abyss. Lugonu does not forgive easily, and will not allow ex-worshippers to rejoin the fold while Lugonu's wrath still lasts.",
+        "es": null
+    }
+};

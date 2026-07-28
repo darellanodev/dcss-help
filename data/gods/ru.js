@@ -1,0 +1,16 @@
+export default {
+    "name": "Ru",
+    "title": "the Awakened",
+    "description": {
+        "en": "Of all the gods, only Ru opposed creation. Not as folly, but as distraction. Initiates of Ru can open channels to the powers underlying the visible world by renouncing the fetters that bind them here. These sacrifices are not made to Ru, but rather given up freely and permanently. Having made such sacrifices, initiates will become able to draw upon this immense power to aid themselves, eventually gaining the ability to unleash its destructive might against their foes.",
+        "es": "Entre todos los dioses, sólo Ru se opone a la creación. No como una locura, sino como distracción. Los iniciados de Ru pueden abrir canales a los poderes subyacentes al mundo visible al renunciar a las cadenas que los atan aquí. Estos sacrificios no son para Ru, sino que se otorgan gratuita y permanentemente. Sus seguidores pueden redirigir y contraatacar contra sus enemigos, regenerar su salud y magia, realizar poderosos saltos, y liberar una onda masiva de poder contra sus rivales."
+    },
+    "powers": {
+        "en": "Ru will offer followers a number of sacrifices as they travel the dungeon. On accepting these sacrifices, followers will gradually gain an aura of immense power. This aura will initially cause foes that attempt to harm them to falter and become stricken with maladies. After making further sacrifices, followers will be able to draw on this power to restore their health and magic, or to make a lightning-fast explosive leap. Exceptional sacrificants can unleash their power in a massive strike against all their foes. Each of the powers of Ru's sacrificants increases in strength with more piety from more sacrifices.",
+        "es": null
+    },
+    "wrath": {
+        "en": "Those who leave Ru's service will not receive any further punishment; however, their piety will be lost even upon rejoining, and their sacrifices remain forever.",
+        "es": null
+    }
+};

@@ -1,0 +1,16 @@
+export default {
+    "name": "Uskayaw",
+    "title": "the Reveller",
+    "description": {
+        "en": "Uskayaw the Reveller is a god of ecstatic dance. In the dungeon, Uskayaw appreciates the passion and rhythm of combat, rewarding followers for each strike they deliver and for the damage they deal their foes. The longer the dance continues, the greater powers Uskayaw offers. When the dance ends, Uskayaw quickly loses interest.",
+        "es": null
+    },
+    "powers": {
+        "en": "Worshippers of Uskayaw can stomp to damage foes around them, and rapidly move through a line of creatures while confusing them. When a worshipper's dance reaches a certain point, Uskayaw will immediately stop all foes so that the dancer may take a solo. As the dance continues, Uskayaw will link the emotions of foes, forcing them to share their pain. The duration of these effects will increase with Invocations skill, and as long as the intensity of the dance is sufficient they may be repeated after a short time. If the dance continues further, Uskayaw allows worshippers to end it by melding with and then violently exploding from a foe, killing it instantly.",
+        "es": null
+    },
+    "wrath": {
+        "en": "Uskayaw's wrath turns the powers of the dance against the offender. The prude will find their foes going berserk and will be forced to helplessly watch as foes execute their own solos. When the dance is getting too slow, Uskayaw will cause noise to attract more revellers.",
+        "es": null
+    }
+};

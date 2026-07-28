@@ -1,0 +1,16 @@
+export default {
+    "name": "Gozag",
+    "title": "Ym Sagoz the Greedy",
+    "description": {
+        "en": "Gozag Ym Sagoz the Greedy teaches that the world belongs to the rich. Those accepting this principle may exchange their gold for divine assistance. Followers of Gozag do not earn piety; the only way to impress this god is by amassing a fortune, and worshippers may request as much assistance as they can afford. Fortunately, Gozag's worshippers are said to have the touch of gold.",
+        "es": "Gozag Ym Sagoz, el avaro, enseña que el mundo pertenece a los ricos. Quienes acepten este principio pueden comprar su asistencia divina con oro. Los seguidores de Gozag no ganan piedad; sólo se puede impresionar a Gozag con oro y fortuna. Así sus seguidores pueden pedir tantos favores como puedan costear. Afortunadamente, se dice que los seguidores de Gozag tienen el toque del oro."
+    },
+    "powers": {
+        "en": "For Gozag, both flesh and spirit are inferior to wealth, and therefore all monsters are turned to gold upon death. Other monsters may then be briefly distracted by imaginings of great wealth. Stalwarts can purchase immediate help in the form of potions, and may also pay to attract shopkeepers into the dungeon. Particularly well-off adherents may bribe the inhabitants of a branch of the dungeon to turn a blind eye to their presence, or even to change their allegiance.",
+        "es": null
+    },
+    "wrath": {
+        "en": "The first of Gozag's punishments is commercial: all shops opened through Gozag's intervention shut their doors forever. The disloyal are advised to finish their shopping before they launch their betrayal. For as long as Gozag remains angered, ex-worshippers may sometimes be bedazzled by the glint of coin, and their potions will have a chance to fail when quaffed. Any foes that are encountered may also be granted potions of their own to assist them against those who resign from Gozag's service.",
+        "es": null
+    }
+};

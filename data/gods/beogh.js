@@ -1,0 +1,16 @@
+export default {
+    "name": "Beogh",
+    "title": "the Shepherd",
+    "description": {
+        "en": "A god of outcasts, pariahs, and the dispossessed, Beogh's altars are rarely found among those of other faiths, but Beogh's missionaries may always be sought by those looking for a place to belong. Worshippers will find many friends within the dungeon, and those who prove their strength to Beogh may gain lifelong companions the equal of any adventurer. To worship Beogh is to believe there is strength that transcends species and bloodline. To worship Beogh is to be an orc.",
+        "es": "Beogh es una deidad malvada, adorado por los orcos de cuevas nativos del calabozo. Sólo los orcos se pueden dedicar al servicio de Beogh, y ellos deben probar su devoción a través de la matanza. Los devotos de Beogh especialmente fervientes encontrarán a otros seguidores orcos acudiendo a su bandera: ésta es una época de señales y augurios, y los orcos están cada vez más seguros de que la llegada de su Mesías se acerca."
+    },
+    "powers": {
+        "en": "Worshippers will gain the power to call down Beogh's wrath upon their oppressors, and other orcs will start to see them as one of their own. Especially promising adherents will find themselves beset by rivals for Beogh's favour, but overcoming these trials without fleeing will gain them loyal companions whom Beogh will resurrect time and time again, so long as they continue to fight and avenge in Beogh's name. A true chosen one may even rally an entire orcish army to avenge a wrongful death.",
+        "es": null
+    },
+    "wrath": {
+        "en": "Blasphemers against the word of Beogh find themselves assaulted by waves of orcish warriors, or by dancing electric weapons. Beogh may also simply smite such blasphemers – and when smiting true sinners, Beogh has a heavy hand indeed! Those who still worship Beogh will also find their followers regularly deserting them.",
+        "es": null
+    }
+};

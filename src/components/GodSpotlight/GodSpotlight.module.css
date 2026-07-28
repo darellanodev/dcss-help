@@ -1,0 +1,84 @@
+.spotlight {
+    background-color: var(--bg-card);
+    border-radius: 12px;
+    padding: 30px;
+    border-left: 4px solid var(--accent-cyan);
+    max-width: 700px;
+}
+
+.spotlight:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.dateLabel {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(0, 212, 255, 0.15);
+}
+
+.godName {
+    color: var(--accent-cyan);
+    font-size: 1.6rem;
+    margin-bottom: 5px;
+}
+
+.godTitle {
+    color: var(--accent-yellow);
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.sectionTitle {
+    color: var(--accent-cyan);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    margin-top: 18px;
+}
+
+.textBlock {
+    margin-bottom: 18px;
+    line-height: 1.6;
+}
+
+.englishText {
+    color: var(--accent-red);
+    font-size: 0.95rem;
+}
+
+.spanishText {
+    color: var(--accent-green);
+    font-size: 0.95rem;
+    margin-top: 8px;
+}
+
+.noTranslation {
+    color: var(--accent-gray);
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+.viewToggle {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 10px 24px;
+    background: transparent;
+    border: 1px solid rgba(0, 212, 255, 0.4);
+    border-radius: 8px;
+    color: var(--accent-cyan);
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s;
+}
+
+.viewToggle:hover {
+    background: rgba(0, 212, 255, 0.1);
+    border-color: var(--accent-cyan);
+}

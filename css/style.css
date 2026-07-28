@@ -1,0 +1,319 @@
+
+:root {
+    --bg-primary: #1a1a2e;
+    --bg-secondary: #16213e;
+    --bg-card: #0f3460;
+    --text-primary: #e0e0e0;
+    --text-secondary: #a0a0a0;
+    --accent-cyan: #00d4ff;
+    --accent-red: #ff6b6b;
+    --accent-green: #4ecdc4;
+    --accent-yellow: #ffd93d;
+    --accent-gray: #6c757d;
+    --border-green: #2ecc71;
+    --border-yellow: #f39c12;
+    --border-red: #e74c3c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 280px;
+    background-color: var(--bg-secondary);
+    padding: 20px;
+    position: fixed;
+    height: 100vh;
+    overflow-y: auto;
+    border-right: 1px solid rgba(0, 212, 255, 0.2);
+}
+
+.sidebar h1 {
+    color: var(--accent-cyan);
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.sidebar .subtitle {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.progress-section {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.progress-title {
+    color: var(--accent-cyan);
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    height: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--accent-green), var(--accent-cyan));
+    border-radius: 4px;
+    transition: width 0.3s ease;
+}
+
+.progress-text {
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+}
+
+.nav-section {
+    margin-bottom: 20px;
+}
+
+.nav-title {
+    color: var(--accent-cyan);
+    font-size: 1rem;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(0, 212, 255, 0.3);
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    margin-bottom: 8px;
+}
+
+.nav-links a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.nav-links a:hover {
+    background-color: rgba(0, 212, 255, 0.1);
+    color: var(--text-primary);
+}
+
+.nav-links a.active {
+    background-color: rgba(0, 212, 255, 0.2);
+    color: var(--accent-cyan);
+}
+
+.nav-links .icon {
+    margin-right: 10px;
+    font-size: 1.1rem;
+}
+
+/* Main Content */
+.main-content {
+    flex: 1;
+    margin-left: 280px;
+    padding: 30px;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    color: var(--accent-cyan);
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.header p {
+    color: var(--text-secondary);
+    font-size: 1rem;
+}
+
+/* Search */
+.search-container {
+    margin-bottom: 30px;
+}
+
+.search-input {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border: 2px solid rgba(0, 212, 255, 0.3);
+    border-radius: 8px;
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+    transition: border-color 0.2s ease;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: var(--accent-cyan);
+}
+
+.search-input::placeholder {
+    color: var(--text-secondary);
+}
+
+/* God Cards */
+.god-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 20px;
+}
+
+.god-card {
+    background-color: var(--bg-card);
+    border-radius: 12px;
+    padding: 20px;
+    border-left: 4px solid var(--border-yellow);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.god-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.god-card.complete {
+    border-left-color: var(--border-green);
+}
+
+.god-card.partial {
+    border-left-color: var(--border-yellow);
+}
+
+.god-card.none {
+    border-left-color: var(--border-red);
+}
+
+.god-name {
+    color: var(--accent-cyan);
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+}
+
+.god-title {
+    color: var(--accent-yellow);
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.section-title {
+    color: var(--accent-cyan);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    margin-top: 15px;
+}
+
+.text-block {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.english-text {
+    color: var(--accent-red);
+    font-size: 0.95rem;
+}
+
+.spanish-text {
+    color: var(--accent-green);
+    font-size: 0.95rem;
+    margin-top: 8px;
+}
+
+.no-translation {
+    color: var(--accent-gray);
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+.proper-noun {
+    color: var(--accent-yellow);
+    font-weight: 500;
+}
+
+.legend {
+    background-color: var(--bg-secondary);
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.legend-color {
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    margin-right: 8px;
+}
+
+.legend-color.english { background-color: var(--accent-red); }
+.legend-color.spanish { background-color: var(--accent-green); }
+.legend-color.proper { background-color: var(--accent-yellow); }
+.legend-color.missing { background-color: var(--accent-gray); }
+
+/* Responsive */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        border-right: none;
+        border-bottom: 1px solid rgba(0, 212, 255, 0.2);
+    }
+
+    .main-content {
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    .god-cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Empty state */
+.no-results {
+    text-align: center;
+    padding: 40px;
+    color: var(--text-secondary);
+}
+
+.no-results h3 {
+    margin-bottom: 10px;
+}

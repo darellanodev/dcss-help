@@ -1,0 +1,68 @@
+.card {
+    background-color: var(--bg-card);
+    border-radius: 12px;
+    padding: 20px;
+    border-left: 4px solid var(--border-yellow);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.card.complete {
+    border-left-color: var(--border-green);
+}
+
+.card.partial {
+    border-left-color: var(--border-yellow);
+}
+
+.card.none {
+    border-left-color: var(--border-red);
+}
+
+.godName {
+    color: var(--accent-cyan);
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+}
+
+.godTitle {
+    color: var(--accent-yellow);
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.sectionTitle {
+    color: var(--accent-cyan);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    margin-top: 15px;
+}
+
+.textBlock {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.englishText {
+    color: var(--accent-red);
+    font-size: 0.95rem;
+}
+
+.spanishText {
+    color: var(--accent-green);
+    font-size: 0.95rem;
+    margin-top: 8px;
+}
+
+.noTranslation {
+    color: var(--accent-gray);
+    font-style: italic;
+    font-size: 0.9rem;
+}

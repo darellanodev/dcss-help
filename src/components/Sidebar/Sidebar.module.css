@@ -1,0 +1,99 @@
+.sidebar {
+    width: 280px;
+    background-color: var(--bg-secondary);
+    padding: 20px;
+    position: fixed;
+    height: 100vh;
+    overflow-y: auto;
+    border-right: 1px solid rgba(0, 212, 255, 0.2);
+}
+
+.sidebar h1 {
+    color: var(--accent-cyan);
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.progressSection {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.progressTitle {
+    color: var(--accent-cyan);
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.progressBar {
+    height: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+.progressFill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--accent-green), var(--accent-cyan));
+    border-radius: 4px;
+    transition: width 0.3s ease;
+}
+
+.progressText {
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+}
+
+.navSection {
+    margin-bottom: 20px;
+}
+
+.navTitle {
+    color: var(--accent-cyan);
+    font-size: 1rem;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(0, 212, 255, 0.3);
+}
+
+.navLinks {
+    list-style: none;
+}
+
+.navLinks li {
+    margin-bottom: 8px;
+}
+
+.navLinks a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.navLinks a:hover {
+    background-color: rgba(0, 212, 255, 0.1);
+    color: var(--text-primary);
+}
+
+.navLinks a.active {
+    background-color: rgba(0, 212, 255, 0.2);
+    color: var(--accent-cyan);
+}
+
+.navLinks .icon {
+    margin-right: 10px;
+    font-size: 1.1rem;
+}

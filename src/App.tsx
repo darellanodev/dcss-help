@@ -29,6 +29,27 @@ export default function App() {
         </header>
 
         <Legend />
+
+        <div className={styles.toolbar}>
+          <div className={styles.toggleGroup}>
+            <button
+              className={`${styles.toggleOption} ${!showAll ? styles.active : ''}`}
+              onClick={() => setShowAll(false)}
+            >
+              ☀️ Dios del día
+            </button>
+            <button
+              className={`${styles.toggleOption} ${showAll ? styles.active : ''}`}
+              onClick={() => setShowAll(true)}
+            >
+              📋 Todos
+            </button>
+          </div>
+          {showAll && (
+            <SearchBar value={query} onChange={setQuery} />
+          )}
+        </div>
+
         {!showAll ? (
           <>
             <GodSpotlight god={godOfDay} />
@@ -38,10 +59,6 @@ export default function App() {
           </>
         ) : (
           <>
-            <div className={styles.searchContainer}>
-              <SearchBar value={query} onChange={setQuery} />
-            </div>
-
             {filteredGods.length === 0 ? (
               <div className={styles.noResults}>
                 <h3>No se encontraron resultados</h3>

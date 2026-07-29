@@ -30,7 +30,12 @@ export default function App() {
 
         <Legend />
         {!showAll ? (
-          <GodSpotlight god={godOfDay} onShowAll={() => setShowAll(true)} />
+          <>
+            <GodSpotlight god={godOfDay} />
+            <button className={styles.viewToggle} onClick={() => setShowAll(true)}>
+              Ver todos los 27 dioses
+            </button>
+          </>
         ) : (
           <>
             <div className={styles.searchContainer}>

@@ -4,7 +4,6 @@ import styles from './GodSpotlight.module.css'
 
 interface GodSpotlightProps {
   god: God
-  onShowAll: () => void
 }
 
 function formatDate(): string {
@@ -17,7 +16,7 @@ function formatDate(): string {
   })
 }
 
-export default function GodSpotlight({ god, onShowAll }: GodSpotlightProps) {
+export default function GodSpotlight({ god }: GodSpotlightProps) {
   return (
     <div className={styles.spotlight}>
       <div className={styles.dateLabel}>
@@ -75,9 +74,6 @@ export default function GodSpotlight({ god, onShowAll }: GodSpotlightProps) {
         )}
       </div>
 
-      <button className={styles.viewToggle} onClick={onShowAll}>
-        Ver todos los 27 dioses
-      </button>
     </div>
   )
 }

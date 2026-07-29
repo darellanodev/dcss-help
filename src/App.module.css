@@ -39,6 +39,24 @@
     margin-bottom: 10px;
 }
 
+.viewToggle {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 10px 24px;
+    background: transparent;
+    border: 1px solid rgba(0, 212, 255, 0.4);
+    border-radius: 8px;
+    color: var(--accent-cyan);
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s;
+}
+
+.viewToggle:hover {
+    background: rgba(0, 212, 255, 0.1);
+    border-color: var(--accent-cyan);
+}
+
 @media (max-width: 768px) {
     .mainContent {
         margin-left: 0;

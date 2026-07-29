@@ -28,11 +28,11 @@ export default function App() {
           <p>Descripciones, poderes e ira de los dioses de DCSS</p>
         </header>
 
+        <Legend />
         {!showAll ? (
           <GodSpotlight god={godOfDay} onShowAll={() => setShowAll(true)} />
         ) : (
           <>
-            <Legend />
             <div className={styles.searchContainer}>
               <SearchBar value={query} onChange={setQuery} />
             </div>

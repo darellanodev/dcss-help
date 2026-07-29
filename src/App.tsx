@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useEffect } from 'react'
 import godsData from './data/gods.json'
 import type { God } from './types/god'
 import { calculateProgress, searchGods } from './utils/gods'
@@ -15,13 +15,44 @@ const gods = godsData as God[]
 export default function App() {
   const [query, setQuery] = useState('')
   const [showAll, setShowAll] = useState(false)
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const godOfDay = useMemo(() => getGodOfDay(gods), [])
   const filteredGods = useMemo(() => searchGods(gods, query), [query])
   const { translated, total } = useMemo(() => calculateProgress(gods), [])
 
+  useEffect(() => {
+    if (mobileMenuOpen) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = ''
+    }
+    return () => { document.body.style.overflow = '' }
+  }, [mobileMenuOpen])
+
+  useEffect(() => {
+    function handleKeyDown(e: KeyboardEvent) {
+      if (e.key === 'Escape' && mobileMenuOpen) {
+        setMobileMenuOpen(false)
+      }
+    }
+    document.addEventListener('keydown', handleKeyDown)
+    return () => document.removeEventListener('keydown', handleKeyDown)
+  }, [mobileMenuOpen])
+
   return (
     <>
-      <Sidebar translated={translated} total={total} />
+      <header className={styles.mobileTopBar}>
+        <button className={styles.menuButton} onClick={() => setMobileMenuOpen(true)}>
+          ☰
+        </button>
+        <span>⚔️ DCSS Vocabulario</span>
+      </header>
+      <Sidebar
+        translated={translated}
+        total={total}
+        isOpen={mobileMenuOpen}
+        onClose={() => setMobileMenuOpen(false)}
+      />
       <main className={styles.mainContent}>
         <header className={styles.header}>
           <h1>⛪ Dioses</h1>

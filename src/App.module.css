@@ -91,10 +91,54 @@
     border-color: var(--accent-cyan);
 }
 
+.mobileTopBar {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 56px;
+    background-color: var(--bg-secondary);
+    border-bottom: 1px solid rgba(0, 212, 255, 0.2);
+    align-items: center;
+    padding: 0 16px;
+    z-index: 150;
+    gap: 12px;
+}
+
+.mobileTopBar span {
+    color: var(--accent-cyan);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.menuButton {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    color: var(--accent-cyan);
+    font-size: 1.5rem;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.menuButton:hover {
+    background-color: rgba(0, 212, 255, 0.1);
+    border-radius: 8px;
+}
+
 @media (max-width: 768px) {
+    .mobileTopBar {
+        display: flex;
+    }
+
     .mainContent {
         margin-left: 0;
-        padding: 20px;
+        padding: 76px 20px 20px;
     }
 
     .godCards {

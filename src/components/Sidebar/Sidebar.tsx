@@ -13,13 +13,25 @@ const sections = [
 interface SidebarProps {
   translated: number
   total: number
+  isOpen?: boolean
+  onClose?: () => void
 }
 
-export default function Sidebar({ translated, total }: SidebarProps) {
+export default function Sidebar({ translated, total, isOpen, onClose }: SidebarProps) {
   const percentage = Math.round((translated / total) * 100)
 
   return (
-    <aside className={styles.sidebar}>
+    <>
+      <div
+        className={`${styles.backdrop} ${isOpen ? styles.visible : ''}`}
+        onClick={onClose}
+      />
+      <aside
+        className={`${styles.sidebar} ${isOpen ? styles.open : ''}`}
+        role="dialog"
+        aria-modal={isOpen}
+        aria-hidden={!isOpen}
+      >
       <h1>⚔️ DCSS Vocabulario</h1>
       <p className={styles.subtitle}>Dungeon Crawl Stone Soup</p>
 
@@ -50,5 +62,6 @@ export default function Sidebar({ translated, total }: SidebarProps) {
         </ul>
       </nav>
     </aside>
+    </>
   )
 }

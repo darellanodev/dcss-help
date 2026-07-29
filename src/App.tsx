@@ -42,7 +42,7 @@ export default function App() {
   return (
     <>
       <header className={styles.mobileTopBar}>
-        <button className={styles.menuButton} onClick={() => setMobileMenuOpen(true)}>
+        <button className={styles.menuButton} onClick={() => setMobileMenuOpen(prev => !prev)}>
           ☰
         </button>
         <span>⚔️ DCSS Vocabulario</span>

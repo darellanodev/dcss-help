@@ -32,6 +32,7 @@ export default function Sidebar({ translated, total, isOpen, onClose }: SidebarP
         aria-modal={isOpen}
         aria-hidden={!isOpen}
       >
+      <button className={styles.closeButton} onClick={onClose} aria-label="Cerrar menú">✕</button>
       <h1>⚔️ DCSS Vocabulario</h1>
       <p className={styles.subtitle}>Dungeon Crawl Stone Soup</p>
 
@@ -53,7 +54,7 @@ export default function Sidebar({ translated, total, isOpen, onClose }: SidebarP
               <a
                 href="#"
                 className={s.active ? styles.active : s.disabled ? styles.disabled : ''}
-                onClick={e => e.preventDefault()}
+                onClick={s.disabled ? e => e.preventDefault() : (e) => { e.preventDefault(); onClose?.() }}
               >
                 <span className={styles.icon}>{s.icon}</span> {s.label}
               </a>

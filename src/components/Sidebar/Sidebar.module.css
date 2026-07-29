@@ -14,6 +14,29 @@
     margin-bottom: 10px;
 }
 
+.closeButton {
+    display: none;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    font-size: 1.4rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: color 0.2s, background 0.2s;
+}
+
+.closeButton:hover {
+    color: var(--accent-cyan);
+    background-color: rgba(0, 212, 255, 0.1);
+}
+
 .subtitle {
     color: var(--text-secondary);
     font-size: 0.9rem;
@@ -120,11 +143,17 @@
         will-change: transform;
     }
 
+    .closeButton {
+        display: flex;
+    }
+
     .backdrop {
         display: block;
+        pointer-events: none;
     }
 
     .backdrop.visible {
         opacity: 1;
+        pointer-events: auto;
     }
 }

@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect } from 'react'
-import godsData from './data/gods.json'
+import godsData from './data/gods'
 import type { God } from './types/god'
 import { calculateProgress, searchGods } from './utils/gods'
 import { getGodOfDay } from './utils/godOfDay'

@@ -19,7 +19,7 @@ function formatDate(): string {
 
 function renderSpanish(text: GodText, useMachine: boolean) {
   const sourceText = useMachine ? text.es_mt : text.es
-  const prefix = useMachine && text.es_mt ? '🤖 ' : ''
+  const prefix = useMachine ? '🤖 ' : '🧑 '
   if (sourceText) {
     return (
       <div
@@ -28,7 +28,7 @@ function renderSpanish(text: GodText, useMachine: boolean) {
       />
     )
   }
-  return <div className={styles.noTranslation}>(sin traducción)</div>
+  return <div className={styles.noTranslation}><span style={{fontStyle: 'normal'}}>{prefix}</span>(sin traducción)</div>
 }
 
 export default function GodSpotlight({ god, useMachineTranslation }: GodSpotlightProps) {

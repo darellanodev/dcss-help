@@ -1,0 +1,26 @@
+.toggleGroup {
+  display: flex;
+  border: 1px solid rgba(78, 205, 196, 0.3);
+  border-radius: 8px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.toggleOption {
+  padding: 8px 16px;
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.toggleOption:hover {
+  color: var(--accent-green);
+}
+
+.toggleOption.active {
+  background: rgba(78, 205, 196, 0.15);
+  color: var(--accent-green);
+}

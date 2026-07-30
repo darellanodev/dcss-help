@@ -3,14 +3,17 @@
   "title": "the Reveller",
   "description": {
     "en": "Uskayaw the Reveller is a god of ecstatic dance. In the dungeon, Uskayaw appreciates the passion and rhythm of combat, rewarding followers for each strike they deliver and for the damage they deal their foes. The longer the dance continues, the greater powers Uskayaw offers. When the dance ends, Uskayaw quickly loses interest.",
-    "es": null
+    "es": null,
+    "es_mt": "Uskayaw el Fiestero es un dios de la danza extática. En la mazmorra, Uskayaw aprecia la pasión y el ritmo del combate, recompensando a los seguidores por cada golpe que asestan y por el daño que infligen a sus enemigos. Cuanto más dura la danza, mayores poderes ofrece Uskayaw. Cuando la danza termina, Uskayaw pierde rápidamente el interés."
   },
   "powers": {
     "en": "Worshippers of Uskayaw can stomp to damage foes around them, and rapidly move through a line of creatures while confusing them. When a worshipper's dance reaches a certain point, Uskayaw will immediately stop all foes so that the dancer may take a solo. As the dance continues, Uskayaw will link the emotions of foes, forcing them to share their pain. The duration of these effects will increase with Invocations skill, and as long as the intensity of the dance is sufficient they may be repeated after a short time. If the dance continues further, Uskayaw allows worshippers to end it by melding with and then violently exploding from a foe, killing it instantly.",
-    "es": null
+    "es": null,
+    "es_mt": "Los adoradores de Uskayaw pueden pisotear para dañar a los enemigos a su alrededor y moverse rápidamente a través de una línea de criaturas mientras las confunden. Cuando la danza de un adorador alcanza cierto punto, Uskayaw detendrá inmediatamente a todos los enemigos para que el bailarín pueda hacer un solo. A medida que la danza continúa, Uskayaw vinculará las emociones de los enemigos, obligándolos a compartir su dolor. La duración de estos efectos aumentará con la habilidad de Invocaciones, y mientras la intensidad de la danza sea suficiente, pueden repetirse después de un breve tiempo. Si la danza continúa aún más, Uskayaw permite a los adoradores terminarla fusionándose con un enemigo y luego explotando violentamente, matándolo al instante."
   },
   "wrath": {
     "en": "Uskayaw's wrath turns the powers of the dance against the offender. The prude will find their foes going berserk and will be forced to helplessly watch as foes execute their own solos. When the dance is getting too slow, Uskayaw will cause noise to attract more revellers.",
-    "es": null
+    "es": null,
+    "es_mt": "La ira de Uskayaw vuelve los poderes de la danza contra el infractor. El aguafiestas verá a sus enemigos enfurecerse y se verá obligado a observar impotente cómo los enemigos ejecutan sus propios solos. Cuando la danza se vuelve demasiado lenta, Uskayaw causará ruido para atraer a más fiesteros."
   }
 }

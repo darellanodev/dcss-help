@@ -3,14 +3,17 @@
   "title": "",
   "description": {
     "en": "Kikubaaqudgha is a terrible Demon-God, served by those who wish to indulge in the powers of death. An evil god, Kikubaaqudgha requires worshippers to cause the death and destruction of as many creatures as possible. In exchange, Kikubaaqudgha offers great assistance to the aspiring necromancer: a supply of useful bodies, knowledge of dark magic, and protection against necromantic backlash.",
-    "es": "Kikubaaqudgha es un terrible dios demonio, al que sirven aquellos que quieren manipular los poderes de la muerte. Kikubaaqudgha es una deidad maligna y demanda muertes de criaturas vivas y de demonios tan a menudo como sea posible. A cambio, Kikubaaqudgha ofrece gran asistencia a quien aspire ser un nigromante: libros de hechizos repletos de magia negra, protección y una vasta fuente de cadáveres directamente del mausoleo de Kikubaaqudgha."
+    "es": "Kikubaaqudgha es un terrible dios demonio, al que sirven aquellos que quieren manipular los poderes de la muerte. Kikubaaqudgha es una deidad maligna y demanda muertes de criaturas vivas y de demonios tan a menudo como sea posible. A cambio, Kikubaaqudgha ofrece gran asistencia a quien aspire ser un nigromante: libros de hechizos repletos de magia negra, protección y una vasta fuente de cadáveres directamente del mausoleo de Kikubaaqudgha.",
+    "es_mt": "Kikubaaqudgha es un terrible dios demonio, servido por aquellos que desean entregarse a los poderes de la muerte. Un dios maligno, Kikubaaqudgha exige que sus adoradores causen la muerte y destrucción de tantas criaturas como sea posible. A cambio, Kikubaaqudgha ofrece gran asistencia al aspirante a nigromante: un suministro de cuerpos útiles, conocimiento de la magia oscura y protección contra las reacciones necrománticas."
   },
   "powers": {
     "en": "Kikubaaqudgha will enhance servants' necromantic prowess with gifts of Necromancy spells. Kikubaaqudgha will protect followers from the effects of necromantic miscasts and death curses, and may even shield them from unholy torment. Followers can unearth dying wretches as necromantic fodder, and may invoke the sign of ruin to harm their enemies. Kikubaaqudgha will eventually allow followers to either receive knowledge of the most forbidden necromantic magic, or to have their weapon imbued with pain.",
-    "es": null
+    "es": null,
+    "es_mt": "Kikubaaqudgha mejorará la destreza necromántica de sus sirvientes con dones de hechizos de Nigromancia. Kikubaaqudgha protegerá a los seguidores de los efectos de los fallos necrománticos y las maldiciones de muerte, e incluso puede protegerlos del tormento profano. Los seguidores pueden desenterrar miserables moribundos como forraje necromántico e invocar el signo de la ruina para dañar a sus enemigos. Kikubaaqudgha eventualmente permitirá a los seguidores recibir conocimiento de la magia necromántica más prohibida, o imbuir su arma con dolor."
   },
   "wrath": {
     "en": "Kikubaaqudgha's wrath brings forth all the dread powers of necromancy. Victims may witness the devastating Sign of Ruin form upon themselves, or both doomed and drained without any respect for their negative energy resistance. Furthermore, Kikubaaqudgha's gifts become tainted: the dead rise again as foes, and those that attempt to use necromantic magic to fend off wrath will find it backfiring on them when least expected.",
-    "es": null
+    "es": null,
+    "es_mt": "La ira de Kikubaaqudgha desata todos los temibles poderes de la nigromancia. Las víctimas pueden presenciar el devastador Signo de la Ruina formándose sobre ellas, o ser condenadas y drenadas sin respeto por su resistencia a la energía negativa. Además, los dones de Kikubaaqudgha se contaminan: los muertos se levantan de nuevo como enemigos, y aquellos que intenten usar magia necromántica para defenderse de la ira descubrirán que les sale el tiro por la culata cuando menos lo esperan."
   }
 }

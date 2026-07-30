@@ -3,14 +3,17 @@
   "title": "the Loreminder",
   "description": {
     "en": "Sif Muna the Loreminder is a contemplative but powerful deity, served by those who seek magical knowledge. Followers who tirelessly pursue new horizons can call upon the Loreminder for magical power and the ability to cast spells beyond their magical training. The devout are rewarded with a supply of spellbooks taken directly from Sif Muna's legendary library.",
-    "es": "Sif Muna, «quien posee el conocimiento» es una deidad contemplativa pero poderosa, a quien sirven los que buscan conocimiento de la magia. Aprecia el entrenamiento de las capacidades para hacer magia. Sif Muna recompensa a sus seguidores más devotos con libros de hechizo exclusivos de su legendaria biblioteca."
+    "es": "Sif Muna, «quien posee el conocimiento» es una deidad contemplativa pero poderosa, a quien sirven los que buscan conocimiento de la magia. Aprecia el entrenamiento de las capacidades para hacer magia. Sif Muna recompensa a sus seguidores más devotos con libros de hechizo exclusivos de su legendaria biblioteca.",
+    "es_mt": "Sif Muna la Sabia es una deidad contemplativa pero poderosa, servida por aquellos que buscan conocimiento mágico. Los seguidores que persiguen incansablemente nuevos horizontes pueden invocar a la Sabia para obtener poder mágico y la capacidad de lanzar hechizos más allá de su entrenamiento mágico. Los devotos son recompensados con un suministro de libros de hechizos tomados directamente de la legendaria biblioteca de Sif Muna."
   },
   "powers": {
     "en": "Sif Muna grants followers the ability to rapidly restore their magical energy, and to forget spells at will, so as to learn new ones. Worshippers can call upon the Loreminder to help cast any spell they've discovered, even if it's well beyond their current magical training. Over time, devout followers will receive spellbooks containing a vast range of spells.",
-    "es": null
+    "es": null,
+    "es_mt": "Sif Muna concede a sus seguidores la capacidad de restaurar rápidamente su energía mágica y de olvidar hechizos a voluntad para aprender otros nuevos. Los adoradores pueden invocar a la Sabia para que les ayude a lanzar cualquier hechizo que hayan descubierto, incluso si está mucho más allá de su entrenamiento mágico actual. Con el tiempo, los devotos seguidores recibirán libros de hechizos que contienen una amplia gama de conjuros."
   },
   "wrath": {
     "en": "Those in Sif Muna's ill graces find the very forces of magic rebelling against them. They are confused and stupefied, their magical reserves drained, their enchantments unravelled. Casting spells, too, becomes unreliable – and even dangerous.",
-    "es": null
+    "es": null,
+    "es_mt": "Aquellos que están en desgracia con Sif Muna descubren que las propias fuerzas de la magia se rebelan contra ellos. Están confundidos y aturdidos, sus reservas mágicas drenadas, sus encantamientos deshechos. Lanzar hechizos también se vuelve poco fiable, e incluso peligroso."
   }
 }

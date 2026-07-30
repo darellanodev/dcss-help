@@ -1,6 +1,7 @@
 export interface GodText {
   en: string
   es: string | null
+  es_mt: string | null
 }
 
 export interface God {

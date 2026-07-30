@@ -44,6 +44,9 @@ export function searchGods(gods: God[], query: string): God[] {
     if (god.description.es && god.description.es.toLowerCase().includes(lowerQuery)) return true
     if (god.powers.es && god.powers.es.toLowerCase().includes(lowerQuery)) return true
     if (god.wrath.es && god.wrath.es.toLowerCase().includes(lowerQuery)) return true
+    if (god.description.es_mt && god.description.es_mt.toLowerCase().includes(lowerQuery)) return true
+    if (god.powers.es_mt && god.powers.es_mt.toLowerCase().includes(lowerQuery)) return true
+    if (god.wrath.es_mt && god.wrath.es_mt.toLowerCase().includes(lowerQuery)) return true
     return false
   })
 }

@@ -3,14 +3,17 @@
   "title": "the Trickster",
   "description": {
     "en": "Nemelex is a strange and unpredictable chaotic trickster god, whose powers are invoked through magical packs of cards painted in the ichor of demons. Followers will be granted decks of cards as they traverse the dungeon, and are encouraged to trust in the cards to provide them with divine assistance. However, the Trickster can also ensure that fortune favours the bold.",
-    "es": "Nemelex es un dios tramposo e impredecible, cuyos poderes pueden ser invocados mediante paquetes de cartas mágicas pintadas con el icor de demonios. Sus seguidores deben explorar el mundo, a cambio recibirán barajas de cartas. Ellos deben confiar en las cartas y usarlas tanto como sea posible. Además, Nemelex asegura que la fortuna favorece al más valiente."
+    "es": "Nemelex es un dios tramposo e impredecible, cuyos poderes pueden ser invocados mediante paquetes de cartas mágicas pintadas con el icor de demonios. Sus seguidores deben explorar el mundo, a cambio recibirán barajas de cartas. Ellos deben confiar en las cartas y usarlas tanto como sea posible. Además, Nemelex asegura que la fortuna favorece al más valiente.",
+    "es_mt": "Nemelex es un extraño e impredecible dios tramposo del caos, cuyos poderes se invocan a través de mazos de cartas mágicas pintadas con el icor de los demonios. Los seguidores recibirán barajas de cartas mientras recorren la mazmorra, y se les anima a confiar en que las cartas les proporcionarán asistencia divina. Sin embargo, el Tramposo también puede asegurarse de que la fortuna favorezca a los audaces."
   },
   "powers": {
     "en": "The Trickster's followers gain various ways to influence fate when playing their cards. The effects of the cards will be more powerful with higher piety and with greater Invocations skill. Later, followers will gain powerful abilities to manipulate the cards, allowing them to choose one of three drawn cards, to gain the effects of multiple cards at once, and finally to stack decks and re-order their contents.",
-    "es": null
+    "es": null,
+    "es_mt": "Los seguidores del Tramposo ganan varias formas de influir en el destino al jugar sus cartas. Los efectos de las cartas serán más poderosos con mayor piedad y con mayor habilidad de Invocaciones. Más tarde, los seguidores obtendrán poderosas habilidades para manipular las cartas, permitiéndoles elegir una de tres cartas robadas, obtener los efectos de múltiples cartas a la vez y finalmente apilar los mazos y reordenar su contenido."
   },
   "wrath": {
     "en": "Those who abandon Nemelex Xobeh have all of their gifted decks revoked immediately. They are also regularly forced to draw from the deck of Punishment, inflicting a range of unpleasant effects including draining, torment and polymorphing, as well as calling upon other gods to assist in inflicting wrath.",
-    "es": null
+    "es": null,
+    "es_mt": "Quienes abandonen a Nemelex Xobeh verán revocados todos sus mazos regalados inmediatamente. También se ven obligados regularmente a robar del mazo de Castigo, sufriendo una variedad de efectos desagradables que incluyen drenaje, tormento y polimorfia, además de invocar a otros dioses para ayudar a infligir ira."
   }
 }

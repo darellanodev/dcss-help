@@ -23,5 +23,6 @@
 
 .english { background-color: var(--accent-red); }
 .spanish { background-color: var(--accent-green); }
+.machine { background-color: var(--accent-green); }
 .proper { background-color: var(--accent-yellow); }
 .missing { background-color: var(--accent-gray); }

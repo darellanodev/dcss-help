@@ -3,14 +3,17 @@
   "title": "the Shrouded",
   "description": {
     "en": "Dithmenos is the god of night and of things half-seen in flickering torchlight. Worshipped by actors as often as thieves, followers of Dithmenos can learn to control their own shadow as if it were an extension of their body - misdirecting onlookers and acting upon the world with force as tangible as anything that has ever been imagined lurking in the dark.",
-    "es": "Dithmenos el sombrío desea que todo sea oscuridad. Sus seguidores ganan una afinidad extraña y sobrenatural sobre las sombras en su entorno. Este dios odia el fuego, el cual liberó hace tiempo a los mortales de la tiranía de las sombras; su uso está prohibido por sus seguidores. Dithmenos favorece a quienes destruyan cualquier fuente de fuego."
+    "es": "Dithmenos el sombrío desea que todo sea oscuridad. Sus seguidores ganan una afinidad extraña y sobrenatural sobre las sombras en su entorno. Este dios odia el fuego, el cual liberó hace tiempo a los mortales de la tiranía de las sombras; su uso está prohibido por sus seguidores. Dithmenos favorece a quienes destruyan cualquier fuente de fuego.",
+    "es_mt": "Dithmenos es el dios de la noche y de las cosas medio vistas en la luz titilante de las antorchas. Adorado tanto por actores como por ladrones, los seguidores de Dithmenos pueden aprender a controlar su propia sombra como si fuera una extensión de su cuerpo, desorientando a los espectadores y actuando sobre el mundo con una fuerza tan tangible como cualquier cosa que se haya imaginado acechando en la oscuridad."
   },
   "powers": {
     "en": "Followers of Dithmenos are surrounded by an unnatural quiet, which helps the sounds they make go unnoticed. As they rise in devotion, they will find their own shadow begins to imitate some of their actions, attacking when they attack and even casting shadowy magics that mimic the form - if not the substance - of whichever schools of magic they had been utilising. More devout worshippers additionally gain the ability to swap places with their shadow to mislead enemies, grasp other beings' shadows to unleash their magic on the worshipper's behalf, and finally call down a night so dark that it hides all denizens of the dungeon from each other.",
-    "es": null
+    "es": null,
+    "es_mt": "Los seguidores de Dithmenos están rodeados por un silencio antinatural que ayuda a que los sonidos que hacen pasen desapercibidos. A medida que aumentan su devoción, descubren que su propia sombra comienza a imitar algunas de sus acciones, atacando cuando ellos atacan e incluso lanzando magias sombrías que imitan la forma, si no la sustancia, de las escuelas de magia que han estado utilizando. Los adoradores más devotos obtienen además la capacidad de intercambiar lugares con su sombra para engañar a los enemigos, agarrar las sombras de otros seres para lanzar su magia en nombre del adorador y finalmente convocar una noche tan oscura que oculta a todos los habitantes de la mazmorra entre sí."
   },
   "wrath": {
     "en": "When angered, Dithmenos turns the shadows against victims. Monsters emerge from the darkness, both illusions woven from shadow and the very shadow themselves turning against sinners. Dithmenos' subtle punishments are, if anything, more dangerous: victims find the shadows ripped away from them, hunted with nowhere to hide; or find themselves smothered in shadow and sleeping, perhaps forever.",
-    "es": null
+    "es": null,
+    "es_mt": "Cuando se enfada, Dithmenos vuelve las sombras contra las víctimas. Los monstruos emergen de la oscuridad, tanto ilusiones tejidas de sombra como las propias sombras se vuelven contra los pecadores. Los castigos sutiles de Dithmenos son, si acaso, más peligrosos: las víctimas se encuentran despojadas de sus sombras, cazadas sin escondite, o se encuentran asfixiadas en sombras y durmiendo, quizás para siempre."
   }
 }

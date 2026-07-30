@@ -3,14 +3,17 @@
   "title": "the Shepherd",
   "description": {
     "en": "A god of outcasts, pariahs, and the dispossessed, Beogh's altars are rarely found among those of other faiths, but Beogh's missionaries may always be sought by those looking for a place to belong. Worshippers will find many friends within the dungeon, and those who prove their strength to Beogh may gain lifelong companions the equal of any adventurer. To worship Beogh is to believe there is strength that transcends species and bloodline. To worship Beogh is to be an orc.",
-    "es": "Beogh es una deidad malvada, adorado por los orcos de cuevas nativos del calabozo. Sólo los orcos se pueden dedicar al servicio de Beogh, y ellos deben probar su devoción a través de la matanza. Los devotos de Beogh especialmente fervientes encontrarán a otros seguidores orcos acudiendo a su bandera: ésta es una época de señales y augurios, y los orcos están cada vez más seguros de que la llegada de su Mesías se acerca."
+    "es": "Beogh es una deidad malvada, adorado por los orcos de cuevas nativos del calabozo. Sólo los orcos se pueden dedicar al servicio de Beogh, y ellos deben probar su devoción a través de la matanza. Los devotos de Beogh especialmente fervientes encontrarán a otros seguidores orcos acudiendo a su bandera: ésta es una época de señales y augurios, y los orcos están cada vez más seguros de que la llegada de su Mesías se acerca.",
+    "es_mt": "Un dios de los marginados, parias y desposeídos, los altares de Beogh rara vez se encuentran entre los de otras fes, pero los misioneros de Beogh siempre pueden ser buscados por aquellos que buscan un lugar al que pertenecer. Los adoradores encontrarán muchos amigos en la mazmorra, y aquellos que demuestren su fuerza a Beogh pueden ganar compañeros de por vida comparables a cualquier aventurero. Adorar a Beogh es creer que hay una fuerza que trasciende la especie y el linaje. Adorar a Beogh es ser un orco."
   },
   "powers": {
     "en": "Worshippers will gain the power to call down Beogh's wrath upon their oppressors, and other orcs will start to see them as one of their own. Especially promising adherents will find themselves beset by rivals for Beogh's favour, but overcoming these trials without fleeing will gain them loyal companions whom Beogh will resurrect time and time again, so long as they continue to fight and avenge in Beogh's name. A true chosen one may even rally an entire orcish army to avenge a wrongful death.",
-    "es": null
+    "es": null,
+    "es_mt": "Los adoradores obtendrán el poder de invocar la ira de Beogh sobre sus opresores, y otros orcos comenzarán a verlos como uno de los suyos. Los adeptos especialmente prometedores se verán acosados por rivales por el favor de Beogh, pero superar estas pruebas sin huir les ganará compañeros leales a quienes Beogh resucitará una y otra vez, siempre que sigan luchando y vengando en nombre de Beogh. Un verdadero elegido puede incluso reunir a todo un ejército orco para vengar una muerte injusta."
   },
   "wrath": {
     "en": "Blasphemers against the word of Beogh find themselves assaulted by waves of orcish warriors, or by dancing electric weapons. Beogh may also simply smite such blasphemers – and when smiting true sinners, Beogh has a heavy hand indeed! Those who still worship Beogh will also find their followers regularly deserting them.",
-    "es": null
+    "es": null,
+    "es_mt": "Los blasfemos contra la palabra de Beogh se ven asaltados por oleadas de guerreros orcos o por armas eléctricas danzantes. Beogh también puede simplemente fulminar a tales blasfemos, ¡y cuando castiga a verdaderos pecadores, Beogh tiene mano dura! Aquellos que todavía adoran a Beogh también encontrarán que sus seguidores los abandonan regularmente."
   }
 }

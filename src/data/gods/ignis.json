@@ -3,14 +3,17 @@
   "title": "the Dying Flame",
   "description": {
     "en": "Ignis the Dying Flame offers followers power over fire in many forms. All of Ignis' power is offered unconditionally to any who would deign to worship, but once used, it can never be replenished. Ignis' other worshippers deserted long ago; the divine fire burns low, and soon it will go out.",
-    "es": null
+    "es": null,
+    "es_mt": "Ignis la Llama Moribunda ofrece a sus seguidores poder sobre el fuego en muchas formas. Todo el poder de Ignis se ofrece incondicionalmente a cualquiera que se digne a adorarlo, pero una vez usado, nunca puede ser repuesto. Los otros adoradores de Ignis desertaron hace mucho tiempo; el fuego divino arde débilmente, y pronto se apagará."
   },
   "powers": {
     "en": "Followers can armour themselves in flame, call a swarm of foxfires against their foes, or let Ignis' heat lift them to another level of the dungeon. However, the guttering flames of Ignis' power will only sustain a limited number of invocations before only flickering embers remain. No matter how depleted, Ignis will always grant followers resistance to fire.",
-    "es": null
+    "es": null,
+    "es_mt": "Los seguidores pueden armarse de llamas, invocar un enjambre de fuegos zorros contra sus enemigos, o dejar que el calor de Ignis los eleve a otro nivel de la mazmorra. Sin embargo, las vacilantes llamas del poder de Ignis solo sostendrán un número limitado de invocaciones antes de que solo queden brasas parpadeantes. No importa cuán agotado esté, Ignis siempre concederá a sus seguidores resistencia al fuego."
   },
   "wrath": {
     "en": "The wrath of Ignis is now weaker than that of most other gods. Apostates will find their resistance to fire stripped away completely, and will be periodically assaulted by fire elementals, find their enemies strengthened by fire, or even have the floor burned out from beneath them. Experienced and cautious adventurers will likely overmaster these assaults.",
-    "es": null
+    "es": null,
+    "es_mt": "La ira de Ignis es ahora más débil que la de la mayoría de los otros dioses. Los apóstatas perderán completamente su resistencia al fuego, y serán asaltados periódicamente por elementales de fuego, verán a sus enemigos fortalecidos por el fuego, o incluso tendrán el suelo quemado bajo sus pies. Los aventureros experimentados y cautelosos probablemente superarán estos asaltos."
   }
 }

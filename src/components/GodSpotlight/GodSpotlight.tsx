@@ -1,9 +1,10 @@
-import type { God } from '../../types/god'
+import type { God, GodText } from '../../types/god'
 import { highlightText } from '../../utils/highlight'
 import styles from './GodSpotlight.module.css'
 
 interface GodSpotlightProps {
   god: God
+  useMachineTranslation: boolean
 }
 
 function formatDate(): string {
@@ -16,7 +17,21 @@ function formatDate(): string {
   })
 }
 
-export default function GodSpotlight({ god }: GodSpotlightProps) {
+function renderSpanish(text: GodText, useMachine: boolean) {
+  const sourceText = useMachine ? text.es_mt : text.es
+  const prefix = useMachine && text.es_mt ? '🤖 ' : ''
+  if (sourceText) {
+    return (
+      <div
+        className={styles.spanishText}
+        dangerouslySetInnerHTML={{ __html: prefix + highlightText(sourceText) }}
+      />
+    )
+  }
+  return <div className={styles.noTranslation}>(sin traducción)</div>
+}
+
+export default function GodSpotlight({ god, useMachineTranslation }: GodSpotlightProps) {
   return (
     <div className={styles.spotlight}>
       <div className={styles.dateLabel}>
@@ -32,14 +47,7 @@ export default function GodSpotlight({ god }: GodSpotlightProps) {
           className={styles.englishText}
           dangerouslySetInnerHTML={{ __html: highlightText(god.description.en) }}
         />
-        {god.description.es ? (
-          <div
-            className={styles.spanishText}
-            dangerouslySetInnerHTML={{ __html: highlightText(god.description.es) }}
-          />
-        ) : (
-          <div className={styles.noTranslation}>(sin traducción)</div>
-        )}
+        {renderSpanish(god.description, useMachineTranslation)}
       </div>
 
       <div className={styles.sectionTitle}>Poderes</div>
@@ -48,14 +56,7 @@ export default function GodSpotlight({ god }: GodSpotlightProps) {
           className={styles.englishText}
           dangerouslySetInnerHTML={{ __html: highlightText(god.powers.en) }}
         />
-        {god.powers.es ? (
-          <div
-            className={styles.spanishText}
-            dangerouslySetInnerHTML={{ __html: highlightText(god.powers.es) }}
-          />
-        ) : (
-          <div className={styles.noTranslation}>(sin traducción)</div>
-        )}
+        {renderSpanish(god.powers, useMachineTranslation)}
       </div>
 
       <div className={styles.sectionTitle}>Ira</div>
@@ -64,14 +65,7 @@ export default function GodSpotlight({ god }: GodSpotlightProps) {
           className={styles.englishText}
           dangerouslySetInnerHTML={{ __html: highlightText(god.wrath.en) }}
         />
-        {god.wrath.es ? (
-          <div
-            className={styles.spanishText}
-            dangerouslySetInnerHTML={{ __html: highlightText(god.wrath.es) }}
-          />
-        ) : (
-          <div className={styles.noTranslation}>(sin traducción)</div>
-        )}
+        {renderSpanish(god.wrath, useMachineTranslation)}
       </div>
 
     </div>

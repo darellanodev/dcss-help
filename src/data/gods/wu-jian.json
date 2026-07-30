@@ -3,14 +3,17 @@
   "title": "the Wu Jian Council",
   "description": {
     "en": "The Wu Jian Council is a congregation of martial monks, ascended to divinity after battling their way out of the afterlife. Disciples of the Council are able to execute acrobatic martial maneuvers, such as wall jumps, spinning attacks and punishing lunges. They will eventually become able to request help in the form of a storm of heavenly clouds.",
-    "es": null
+    "es": null,
+    "es_mt": "El Consejo Wu Jian es una congregación de monjes marciales, ascendidos a la divinidad después de abrirse camino luchando para salir del más allá. Los discípulos del Consejo pueden ejecutar maniobras marciales acrobáticas, como saltos de pared, ataques giratorios y estocadas castigadoras. Eventualmente podrán solicitar ayuda en forma de una tormenta de nubes celestiales."
   },
   "powers": {
     "en": "Disciples of the Council learn to perform three martial techniques while moving around in combat. They will also be taught to move at unfathomable speeds for short distances, and become able to summon a storm of golden clouds to increase their precision and damage for as long as they keep using martial attacks.",
-    "es": null
+    "es": null,
+    "es_mt": "Los discípulos del Consejo aprenden a realizar tres técnicas marciales mientras se mueven en combate. También se les enseña a moverse a velocidades inconcebibles en distancias cortas, y se vuelven capaces de invocar una tormenta de nubes doradas para aumentar su precisión y daño mientras sigan usando ataques marciales."
   },
   "wrath": {
     "en": "Those who turn against the Council must be prepared to endure death by a thousand cuts. No hiding place is secure, no disguise perfect enough to avoid the sudden spring of traps, the flying daggers and the armies of animated weapons that will ambush the betrayer.",
-    "es": null
+    "es": null,
+    "es_mt": "Quienes se vuelvan contra el Consejo deben estar preparados para soportar la muerte por mil cortes. Ningún escondite es seguro, ningún disfraz es lo suficientemente perfecto para evitar la repentina activación de trampas, las dagas voladoras y los ejércitos de armas animadas que emboscarán al traidor."
   }
 }

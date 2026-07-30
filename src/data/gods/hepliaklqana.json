@@ -3,14 +3,17 @@
   "title": "the Forgotten",
   "description": {
     "en": "Hepliaklqana the Forgotten accepts the worship of those who would remember their forebears, and fight alongside the greatest of them all. Acolytes of Hepliaklqana sacrifice a small part of their life essence to manifest their ancestor into the world; as they explore and form new experiences, they will find themselves able to shape and control their ancestor's memory, eventually bringing them into the ranks of the mythical heroes.",
-    "es": null
+    "es": null,
+    "es_mt": "Hepliaklqana el Olvidado acepta la adoración de aquellos que recuerdan a sus antepasados y luchan junto al más grande de ellos. Los acólitos de Hepliaklqana sacrifican una pequeña parte de su esencia vital para manifestar a su ancestro en el mundo; a medida que exploran y forman nuevas experiencias, descubrirán que pueden moldear y controlar la memoria de su ancestro, llevándolo eventualmente a las filas de los héroes míticos."
   },
   "powers": {
     "en": "Hepliaklqana's worshippers are served by a guardian formed from a part of their life essence, in the shape of their greatest ancestor. This ancestor is at first remembered as they were at the start of their fabled adventures, but will advance in skill as their descendant does. Hepliaklqana always allows followers to recall their ancestor to their side, and, even if the ancestor is destroyed, Hepliaklqana will call it forth again not long after. Further advancement in Hepliaklqana's service allows worshippers to restore and strengthen their ancestor, to swap them with other creatures, and to choose how to remember their life's talents.",
-    "es": null
+    "es": null,
+    "es_mt": "Los adoradores de Hepliaklqana son servidos por un guardián formado a partir de una parte de su esencia vital, con la forma de su mayor antepasado. Este ancestro es recordado al principio como estaba al inicio de sus fabulosas aventuras, pero avanzará en habilidad a medida que lo haga su descendiente. Hepliaklqana siempre permite a los seguidores recordar a su ancestro para que vuelva a su lado, e incluso si el ancestro es destruido, Hepliaklqana lo convocará de nuevo poco después. Un mayor avance en el servicio de Hepliaklqana permite a los adoradores restaurar y fortalecer a su ancestro, intercambiarlo con otras criaturas y elegir cómo recordar los talentos de su vida."
   },
   "wrath": {
     "en": "Hepliaklqana believes that the only reasonable punishment for turning one's back on the path of memory is to be denied its use. All new experience is denied to the unfortunate apostate, until Hepliaklqana decides they have been punished enough. The life essence sacrificed to manifest an ancestor will not be returned until Hepliaklqana is mollified, and this will not be quick: unlike some, Hepliaklqana has a long memory.",
-    "es": null
+    "es": null,
+    "es_mt": "Hepliaklqana cree que el único castigo razonable para quien abandona el camino de la memoria es negarle su uso. Toda nueva experiencia le es negada al desafortunado apóstata, hasta que Hepliaklqana decida que ha sido castigado lo suficiente. La esencia vital sacrificada para manifestar un ancestro no será devuelta hasta que Hepliaklqana se apacigüe, y esto no será rápido: a diferencia de algunos, Hepliaklqana tiene memoria larga."
   }
 }

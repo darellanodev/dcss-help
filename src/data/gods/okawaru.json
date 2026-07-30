@@ -3,14 +3,17 @@
   "title": "Warmaster",
   "description": {
     "en": "Okawaru is a dangerous and powerful god of battle. Followers are expected to constantly prove themselves in combat, and may channel Okawaru's might to enhance their prowess. Okawaru demands that followers prove themselves by their own strength alone, and so worshippers are forbidden from gaining allies by any means. Okawaru pays little heed to easy victories, but will reward worshippers for heroic feats against mighty foes.",
-    "es": "Okawaru es un poderoso y peligroso dios de la guerra. Los seguidores pueden ganar varios poderes útiles en combate además de ciertas recompensas, pero deben constantemente probarse a sí mismos derrotando otras criaturas. Okawaru prefiere gestos heroicos contra poderosos enemigos, y no presta mucha atención a victorias fáciles. Okawaru menosprecia a quienes hieren a sus aliados."
+    "es": "Okawaru es un poderoso y peligroso dios de la guerra. Los seguidores pueden ganar varios poderes útiles en combate además de ciertas recompensas, pero deben constantemente probarse a sí mismos derrotando otras criaturas. Okawaru prefiere gestos heroicos contra poderosos enemigos, y no presta mucha atención a victorias fáciles. Okawaru menosprecia a quienes hieren a sus aliados.",
+    "es_mt": "Okawaru es un peligroso y poderoso dios de la batalla. Se espera que los seguidores se prueben constantemente en combate y pueden canalizar el poder de Okawaru para mejorar su destreza. Okawaru exige que los seguidores se demuestren por su propia fuerza, por lo que los adoradores tienen prohibido obtener aliados por cualquier medio. Okawaru presta poca atención a las victorias fáciles, pero recompensará a los adoradores por hazañas heroicas contra enemigos poderosos."
   },
   "powers": {
     "en": "Followers of Okawaru will gain the ability to temporarily increase their skills in combat, and, much later, to deal much faster blows. Okawaru will eventually gift followers with ammunition, weapons and armour. The most favoured of Okawaru may challenge their foes to honourable single combat.",
-    "es": null
+    "es": null,
+    "es_mt": "Los seguidores de Okawaru obtendrán la capacidad de aumentar temporalmente sus habilidades en combate y, mucho más tarde, de asestar golpes mucho más rápidos. Okawaru eventualmente regalará a sus seguidores munición, armas y armadura. Los más favorecidos de Okawaru pueden desafiar a sus enemigos a un combate singular honorable."
   },
   "wrath": {
     "en": "Okawaru's most vicious warriors are sent against rebellious servants. Novices find themselves swarmed by packs of ogres and gnolls, while champions are surrounded by titans and elvish blademasters.",
-    "es": null
+    "es": null,
+    "es_mt": "Los guerreros más violentos de Okawaru son enviados contra los sirvientes rebeldes. Los novatos se ven acosados por manadas de ogros y gnolls, mientras que los campeones son rodeados por titanes y maestros espadachines élficos."
   }
 }

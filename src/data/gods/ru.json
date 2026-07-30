@@ -3,14 +3,17 @@
   "title": "the Awakened",
   "description": {
     "en": "Of all the gods, only Ru opposed creation. Not as folly, but as distraction. Initiates of Ru can open channels to the powers underlying the visible world by renouncing the fetters that bind them here. These sacrifices are not made to Ru, but rather given up freely and permanently. Having made such sacrifices, initiates will become able to draw upon this immense power to aid themselves, eventually gaining the ability to unleash its destructive might against their foes.",
-    "es": "Entre todos los dioses, sólo Ru se opone a la creación. No como una locura, sino como distracción. Los iniciados de Ru pueden abrir canales a los poderes subyacentes al mundo visible al renunciar a las cadenas que los atan aquí. Estos sacrificios no son para Ru, sino que se otorgan gratuita y permanentemente. Sus seguidores pueden redirigir y contraatacar contra sus enemigos, regenerar su salud y magia, realizar poderosos saltos, y liberar una onda masiva de poder contra sus rivales."
+    "es": "Entre todos los dioses, sólo Ru se opone a la creación. No como una locura, sino como distracción. Los iniciados de Ru pueden abrir canales a los poderes subyacentes al mundo visible al renunciar a las cadenas que los atan aquí. Estos sacrificios no son para Ru, sino que se otorgan gratuita y permanentemente. Sus seguidores pueden redirigir y contraatacar contra sus enemigos, regenerar su salud y magia, realizar poderosos saltos, y liberar una onda masiva de poder contra sus rivales.",
+    "es_mt": "De todos los dioses, solo Ru se opuso a la creación. No como una locura, sino como distracción. Los iniciados de Ru pueden abrir canales a los poderes subyacentes del mundo visible renunciando a las ataduras que los sujetan aquí. Estos sacrificios no se hacen a Ru, sino que se entregan libre y permanentemente. Habiendo hecho tales sacrificios, los iniciados podrán aprovechar este inmenso poder para ayudarse a sí mismos, ganando eventualmente la capacidad de desatar su poder destructivo contra sus enemigos."
   },
   "powers": {
     "en": "Ru will offer followers a number of sacrifices as they travel the dungeon. On accepting these sacrifices, followers will gradually gain an aura of immense power. This aura will initially cause foes that attempt to harm them to falter and become stricken with maladies. After making further sacrifices, followers will be able to draw on this power to restore their health and magic, or to make a lightning-fast explosive leap. Exceptional sacrificants can unleash their power in a massive strike against all their foes. Each of the powers of Ru's sacrificants increases in strength with more piety from more sacrifices.",
-    "es": null
+    "es": null,
+    "es_mt": "Ru ofrecerá a sus seguidores una serie de sacrificios mientras viajan por la mazmorra. Al aceptar estos sacrificios, los seguidores ganarán gradualmente un aura de inmenso poder. Este aura inicialmente hará que los enemigos que intenten dañarlos flaqueen y sean afligidos por enfermedades. Después de hacer más sacrificios, los seguidores podrán aprovechar este poder para restaurar su salud y magia, o para realizar un salto explosivo relámpago. Los sacrificantes excepcionales pueden desatar su poder en un golpe masivo contra todos sus enemigos. Cada uno de los poderes de los sacrificantes de Ru aumenta en fuerza con más piedad de más sacrificios."
   },
   "wrath": {
     "en": "Those who leave Ru's service will not receive any further punishment; however, their piety will be lost even upon rejoining, and their sacrifices remain forever.",
-    "es": null
+    "es": null,
+    "es_mt": "Quienes abandonen el servicio de Ru no recibirán ningún castigo adicional; sin embargo, su piedad se perderá incluso al reincorporarse, y sus sacrificios permanecerán para siempre."
   }
 }

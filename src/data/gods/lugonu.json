@@ -3,14 +3,17 @@
   "title": "the Unformed",
   "description": {
     "en": "Banished to the chaotic realm of the Abyss, Lugonu the Unformed seeks followers to spread bloodshed and corruption in the overworld. Those who gain Lugonu's favour will be granted some of the power of the Abyss itself, allowing them to call forth eldritch horrors, and even to travel between the overworld and the Abyss at will.",
-    "es": "Lugonu, «informe», se revela en el caos del Abismo. Sus seguidores son enviados para causar masacres y corromper al mundo superior, y deben hacerlo sin descanso para ganar el favor de Lugonu. Quienes ganen el favor de Lugonu heredan algo de su poder sobre el Abismo, permitiéndoles invocar horres macabros, incluso viajar entre el Abismo y el mundo superior a voluntad."
+    "es": "Lugonu, «informe», se revela en el caos del Abismo. Sus seguidores son enviados para causar masacres y corromper al mundo superior, y deben hacerlo sin descanso para ganar el favor de Lugonu. Quienes ganen el favor de Lugonu heredan algo de su poder sobre el Abismo, permitiéndoles invocar horres macabros, incluso viajar entre el Abismo y el mundo superior a voluntad.",
+    "es_mt": "Desterrado al reino caótico del Abismo, Lugonu el Informe busca seguidores para extender el derramamiento de sangre y la corrupción en el mundo superior. Quienes ganen el favor de Lugonu recibirán algo del poder del Abismo mismo, permitiéndoles invocar horrores sobrenaturales e incluso viajar entre el mundo superior y el Abismo a voluntad."
   },
   "powers": {
     "en": "Followers of Lugonu gain powers to depart the Abyss at will, to banish monsters there, and to flee back inside when needed. Lugonu will also banish nearby foes if any other god attempts to interfere with their followers. Later, followers will be able to corrupt the ordered world, opening a gate for creatures of the Abyss to pass through, and to gate themselves directly into this realm of chaos. Lugonu will protect followers who unwield weapons imbued with the distorting energies of the Abyss, and eventually will offer to distort a follower's melee weapon. Lugonu expects followers to spread unceasing chaos in the overworld, and as such does not grant piety to worshippers while they remain in the Abyss itself.",
-    "es": null
+    "es": null,
+    "es_mt": "Los seguidores de Lugonu obtienen poderes para salir del Abismo a voluntad, desterrar monstruos allí y refugiarse dentro cuando sea necesario. Lugonu también desterrará a los enemigos cercanos si cualquier otro dios intenta interferir con sus seguidores. Más tarde, los seguidores podrán corromper el mundo ordenado, abriendo un portal para que las criaturas del Abismo pasen a través, y transportarse directamente a este reino del caos. Lugonu protegerá a los seguidores que empuñen armas imbuidas con las energías distorsionadoras del Abismo, y eventualmente ofrecerá distorsionar el arma cuerpo a cuerpo de un seguidor. Lugonu espera que los seguidores extiendan un caos incesante en el mundo superior, y por lo tanto no concede piedad a los adoradores mientras permanezcan en el Abismo mismo."
   },
   "wrath": {
     "en": "Lugonu's ire renders the barrier between reality and the Abyss weak and permeable. Space warps, hurling victims across the dungeon, or even directly into the Abyss. Lugonu also reaches out and sends the chaotic inhabitants of the Abyss against victims, with veteran adventurers facing the greatest horrors of the Abyss. Lugonu does not forgive easily, and will not allow ex-worshippers to rejoin the fold while Lugonu's wrath still lasts.",
-    "es": null
+    "es": null,
+    "es_mt": "La ira de Lugonu vuelve la barrera entre la realidad y el Abismo débil y permeable. El espacio se deforma, arrojando a las víctimas a través de la mazmorra, o incluso directamente al Abismo. Lugonu también extiende su mano y envía a los caóticos habitantes del Abismo contra las víctimas, enfrentando a los aventureros veteranos con los mayores horrores del Abismo. Lugonu no perdona fácilmente, y no permitirá que los ex adoradores se reincorporen mientras dure su ira."
   }
 }

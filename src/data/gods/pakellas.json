@@ -3,14 +3,17 @@
   "title": "the Inventive",
   "description": {
     "en": "Pakellas the Inventive believes in the supremacy of devices, magical or otherwise, over spells and other forms of magic. Followers, although cut off from ambient magical power, are provided with magical energy to empower their devices so long as they use them to assert Pakellas' supremacy. Pakellas will grant devout worshippers access to increasingly powerful devices.",
-    "es": null
+    "es": null,
+    "es_mt": "Pakellas el Inventivo cree en la supremacía de los dispositivos, mágicos o no, sobre los hechizos y otras formas de magia. Los seguidores, aunque están aislados del poder mágico ambiental, reciben energía mágica para potenciar sus dispositivos siempre que los usen para afirmar la supremacía de Pakellas. Pakellas concederá a los devotos adoradores acceso a dispositivos cada vez más poderosos."
   },
   "powers": {
     "en": "Followers of Pakellas do not regenerate their magic power naturally, and are forbidden from using external means to do so; instead, they are granted magical energy on killing beings. They may use increasing amounts of magical energy to strengthen their devices, temporarily granting them additional power, and can also use their magical energy to recharge their devices. Sufficiently devout followers will receive new devices from Pakellas, and may eventually petition Pakellas to personally charge one of their devices beyond its normal limits.",
-    "es": null
+    "es": null,
+    "es_mt": "Los seguidores de Pakellas no regeneran su poder mágico de forma natural y tienen prohibido usar medios externos para hacerlo; en su lugar, reciben energía mágica al matar seres. Pueden usar cantidades crecientes de energía mágica para fortalecer sus dispositivos, otorgándoles temporalmente poder adicional, y también pueden usar su energía mágica para recargar sus dispositivos. Los seguidores suficientemente devotos recibirán nuevos dispositivos de Pakellas, y eventualmente pueden solicitar a Pakellas que cargue personalmente uno de sus dispositivos más allá de sus límites normales."
   },
   "wrath": {
     "en": "Those that offend Pakellas will find themselves completely unable to make use of their devices for the duration of Pakellas' displeasure. Those who abandon Pakellas altogether will also continue to be unable to regenerate their magical power so long as Pakellas' attention remains on them.",
-    "es": null
+    "es": null,
+    "es_mt": "Quienes ofendan a Pakellas se encontrarán completamente incapaces de usar sus dispositivos mientras dure el descontento de Pakellas. Quienes abandonen a Pakellas por completo también seguirán siendo incapaces de regenerar su poder mágico mientras la atención de Pakellas permanezca sobre ellos."
   }
 }

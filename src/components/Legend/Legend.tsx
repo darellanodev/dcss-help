@@ -3,6 +3,7 @@ import styles from './Legend.module.css'
 const items = [
   { color: 'english', label: 'Inglés original' },
   { color: 'spanish', label: 'Traducción al español' },
+  { color: 'machine', label: '🤖 Traducción automática (IA)' },
   { color: 'proper', label: 'Nombre propio / sin traducir' },
   { color: 'missing', label: 'Sin traducción' },
 ]

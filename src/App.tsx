@@ -8,6 +8,7 @@ import SearchBar from './components/SearchBar/SearchBar'
 import GodCard from './components/GodCard/GodCard'
 import GodSpotlight from './components/GodSpotlight/GodSpotlight'
 import Legend from './components/Legend/Legend'
+import TranslationToggle from './components/TranslationToggle/TranslationToggle'
 import styles from './App.module.css'
 
 const gods = godsData as God[]
@@ -16,6 +17,7 @@ export default function App() {
   const [query, setQuery] = useState('')
   const [showAll, setShowAll] = useState(false)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [useMachineTranslation, setUseMachineTranslation] = useState(true)
   const godOfDay = useMemo(() => getGodOfDay(gods), [])
   const filteredGods = useMemo(() => searchGods(gods, query), [query])
   const { translated, total } = useMemo(() => calculateProgress(gods), [])
@@ -79,11 +81,12 @@ export default function App() {
           {showAll && (
             <SearchBar value={query} onChange={setQuery} />
           )}
+          <TranslationToggle useMachine={useMachineTranslation} onChange={setUseMachineTranslation} />
         </div>
 
         {!showAll ? (
           <>
-            <GodSpotlight god={godOfDay} />
+            <GodSpotlight god={godOfDay} useMachineTranslation={useMachineTranslation} />
             <button className={styles.viewToggle} onClick={() => setShowAll(true)}>
               Ver todos los 27 dioses
             </button>
@@ -98,7 +101,7 @@ export default function App() {
             ) : (
               <div className={styles.godCards}>
                 {filteredGods.map(god => (
-                  <GodCard key={god.name} god={god} />
+                  <GodCard key={god.name} god={god} useMachineTranslation={useMachineTranslation} />
                 ))}
               </div>
             )}

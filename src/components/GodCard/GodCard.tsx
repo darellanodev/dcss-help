@@ -1,13 +1,28 @@
-import type { God } from '../../types/god'
+import type { God, GodText } from '../../types/god'
 import { getTranslationStatus } from '../../utils/gods'
 import { highlightText } from '../../utils/highlight'
 import styles from './GodCard.module.css'
 
 interface GodCardProps {
   god: God
+  useMachineTranslation: boolean
 }
 
-export default function GodCard({ god }: GodCardProps) {
+function renderSpanish(text: GodText, useMachine: boolean) {
+  const sourceText = useMachine ? text.es_mt : text.es
+  const prefix = useMachine && text.es_mt ? '🤖 ' : ''
+  if (sourceText) {
+    return (
+      <div
+        className={styles.spanishText}
+        dangerouslySetInnerHTML={{ __html: prefix + highlightText(sourceText) }}
+      />
+    )
+  }
+  return <div className={styles.noTranslation}>(sin traducción)</div>
+}
+
+export default function GodCard({ god, useMachineTranslation }: GodCardProps) {
   const status = getTranslationStatus(god)
 
   return (
@@ -21,14 +36,7 @@ export default function GodCard({ god }: GodCardProps) {
           className={styles.englishText}
           dangerouslySetInnerHTML={{ __html: highlightText(god.description.en) }}
         />
-        {god.description.es ? (
-          <div
-            className={styles.spanishText}
-            dangerouslySetInnerHTML={{ __html: highlightText(god.description.es) }}
-          />
-        ) : (
-          <div className={styles.noTranslation}>(sin traducción)</div>
-        )}
+        {renderSpanish(god.description, useMachineTranslation)}
       </div>
 
       <div className={styles.sectionTitle}>Poderes</div>
@@ -37,14 +45,7 @@ export default function GodCard({ god }: GodCardProps) {
           className={styles.englishText}
           dangerouslySetInnerHTML={{ __html: highlightText(god.powers.en) }}
         />
-        {god.powers.es ? (
-          <div
-            className={styles.spanishText}
-            dangerouslySetInnerHTML={{ __html: highlightText(god.powers.es) }}
-          />
-        ) : (
-          <div className={styles.noTranslation}>(sin traducción)</div>
-        )}
+        {renderSpanish(god.powers, useMachineTranslation)}
       </div>
 
       <div className={styles.sectionTitle}>Ira</div>
@@ -53,14 +54,7 @@ export default function GodCard({ god }: GodCardProps) {
           className={styles.englishText}
           dangerouslySetInnerHTML={{ __html: highlightText(god.wrath.en) }}
         />
-        {god.wrath.es ? (
-          <div
-            className={styles.spanishText}
-            dangerouslySetInnerHTML={{ __html: highlightText(god.wrath.es) }}
-          />
-        ) : (
-          <div className={styles.noTranslation}>(sin traducción)</div>
-        )}
+        {renderSpanish(god.wrath, useMachineTranslation)}
       </div>
     </div>
   )

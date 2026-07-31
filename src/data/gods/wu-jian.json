@@ -15,5 +15,43 @@
     "en": "Those who turn against the Council must be prepared to endure death by a thousand cuts. No hiding place is secure, no disguise perfect enough to avoid the sudden spring of traps, the flying daggers and the armies of animated weapons that will ambush the betrayer.",
     "es": null,
     "es_mt": "Quienes se vuelvan contra el Consejo deben estar preparados para soportar la muerte por mil cortes. Ningún escondite es seguro, ningún disfraz es lo suficientemente perfecto para evitar la repentina activación de trampas, las dagas voladoras y los ejércitos de armas animadas que emboscarán al traidor."
-  }
+  },
+  "glossary": [
+    {
+      "term": "wall jumps",
+      "translation": "saltos de pared",
+      "examples": [
+        {
+          "en": "Disciples of the Council are able to execute acrobatic martial maneuvers, such as wall jumps, spinning attacks and punishing lunges.",
+          "es": "Los discípulos del Consejo pueden ejecutar maniobras marciales acrobáticas, como saltos de pared, ataques giratorios y estocadas castigadoras."
+        },
+        {
+          "en": "With a well-timed wall jump, the monk can reach otherwise inaccessible ledges in the dungeon.",
+          "es": "Con un salto de pared en el momento justo, el monje puede alcanzar repedías inaccesibles en la mazmorra."
+        },
+        {
+          "en": "Wall jumps are a core mobility technique for Wu Jian practitioners.",
+          "es": "Los saltos de pared son una técnica de movilidad central para los practicantes de Wu Jian."
+        }
+      ]
+    },
+    {
+      "term": "lunges",
+      "translation": "estocadas castigadoras",
+      "examples": [
+        {
+          "en": "Disciples of the Council are able to execute acrobatic martial maneuvers, such as wall jumps, spinning attacks and punishing lunges.",
+          "es": "Los discípulos del Consejo pueden ejecutar maniobras marciales acrobáticas, como saltos de pared, ataques giratorios y estocadas castigadoras."
+        },
+        {
+          "en": "A powerful lunge can close the distance between a warrior and their enemy in an instant.",
+          "es": "Una estocada poderosa puede cerrar la distancia entre un guerrero y su enemigo en un instante."
+        },
+        {
+          "en": "The martial monks strike with lunges that carry the force of their divine training.",
+          "es": "Los monjes marciales atacan con estocadas que llevan la fuerza de su entrenamiento divino."
+        }
+      ]
+    }
+  ]
 }

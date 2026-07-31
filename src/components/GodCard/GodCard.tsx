@@ -1,6 +1,8 @@
 import type { God, GodText } from '../../types/god'
 import { getTranslationStatus } from '../../utils/gods'
 import { highlightText } from '../../utils/highlight'
+import { parseGlossaryText } from '../../utils/glossary'
+import { GlossaryTerm } from '../GlossaryTerm/GlossaryTerm'
 import styles from './GodCard.module.css'
 
 interface GodCardProps {
@@ -32,28 +34,25 @@ export default function GodCard({ god, useMachineTranslation }: GodCardProps) {
 
       <div className={styles.sectionTitle}>Descripción</div>
       <div className={styles.textBlock}>
-        <div
-          className={styles.englishText}
-          dangerouslySetInnerHTML={{ __html: highlightText(god.description.en) }}
-        />
+        <div className={styles.englishText}>
+          {parseGlossaryText(highlightText(god.description.en), god.glossary, GlossaryTerm)}
+        </div>
         {renderSpanish(god.description, useMachineTranslation)}
       </div>
 
       <div className={styles.sectionTitle}>Poderes</div>
       <div className={styles.textBlock}>
-        <div
-          className={styles.englishText}
-          dangerouslySetInnerHTML={{ __html: highlightText(god.powers.en) }}
-        />
+        <div className={styles.englishText}>
+          {parseGlossaryText(highlightText(god.powers.en), god.glossary, GlossaryTerm)}
+        </div>
         {renderSpanish(god.powers, useMachineTranslation)}
       </div>
 
       <div className={styles.sectionTitle}>Ira</div>
       <div className={styles.textBlock}>
-        <div
-          className={styles.englishText}
-          dangerouslySetInnerHTML={{ __html: highlightText(god.wrath.en) }}
-        />
+        <div className={styles.englishText}>
+          {parseGlossaryText(highlightText(god.wrath.en), god.glossary, GlossaryTerm)}
+        </div>
         {renderSpanish(god.wrath, useMachineTranslation)}
       </div>
     </div>

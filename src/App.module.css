@@ -63,6 +63,12 @@
     flex-shrink: 0;
 }
 
+.searchRow {
+    flex: 1;
+    min-width: 0;
+    max-width: 500px;
+}
+
 .toggleOption {
     padding: 10px 20px;
     background: transparent;
@@ -169,5 +175,17 @@
 
     .godCards {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 1024px) {
+    .toolbar {
+        flex-wrap: wrap;
+    }
+
+    .searchRow {
+        order: 3;
+        flex-basis: 100%;
+        max-width: 100%;
     }
 }

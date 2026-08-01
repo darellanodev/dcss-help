@@ -79,7 +79,9 @@ export default function App() {
             </button>
           </div>
           {showAll && (
-            <SearchBar value={query} onChange={setQuery} />
+            <div className={styles.searchRow}>
+              <SearchBar value={query} onChange={setQuery} />
+            </div>
           )}
           <TranslationToggle useMachine={useMachineTranslation} onChange={setUseMachineTranslation} />
         </div>

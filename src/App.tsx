@@ -87,6 +87,9 @@ export default function App() {
         {!showAll ? (
           <>
             <GodSpotlight god={godOfDay} useMachineTranslation={useMachineTranslation} />
+            <button className={styles.topButton} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+              ↑ Top
+            </button>
             <button className={styles.viewToggle} onClick={() => setShowAll(true)}>
               Ver todos los 27 dioses
             </button>
@@ -101,7 +104,12 @@ export default function App() {
             ) : (
               <div className={styles.godCards}>
                 {filteredGods.map(god => (
-                  <GodCard key={god.name} god={god} useMachineTranslation={useMachineTranslation} />
+                  <div className={styles.cardGroup} key={god.name}>
+                    <GodCard god={god} useMachineTranslation={useMachineTranslation} />
+                    <button className={styles.topButton} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+                      ↑ Top
+                    </button>
+                  </div>
                 ))}
               </div>
             )}

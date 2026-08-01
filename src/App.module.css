@@ -29,6 +29,15 @@
     gap: 20px;
 }
 
+.cardGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardGroup > :first-child {
+    flex: 1;
+}
+
 .noResults {
     text-align: center;
     padding: 40px;
@@ -87,6 +96,23 @@
 }
 
 .viewToggle:hover {
+    background: rgba(0, 212, 255, 0.1);
+    border-color: var(--accent-cyan);
+}
+
+.topButton {
+    margin-top: 12px;
+    padding: 6px 14px;
+    background: transparent;
+    border: 1px solid rgba(0, 212, 255, 0.4);
+    border-radius: 8px;
+    color: var(--accent-cyan);
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s;
+}
+
+.topButton:hover {
     background: rgba(0, 212, 255, 0.1);
     border-color: var(--accent-cyan);
 }

@@ -1,11 +1,11 @@
 import styles from './Legend.module.css'
 
 const items = [
-  { color: 'english', label: 'Inglés original' },
-  { color: 'spanish', label: 'Traducción al español' },
-  { color: 'machine', label: '🤖 Traducción automática (IA)' },
-  { color: 'proper', label: 'Nombre propio / sin traducir' },
-  { color: 'missing', label: 'Sin traducción' },
+  { color: 'english', label: 'Original English' },
+  { color: 'spanish', label: 'Spanish translation' },
+  { color: 'machine', label: '🤖 Machine translation (AI)' },
+  { color: 'proper', label: 'Proper name / untranslated' },
+  { color: 'missing', label: 'No translation' },
 ]
 
 export default function Legend() {

@@ -12,13 +12,13 @@ export default function TranslationToggle({ useMachine, onChange }: TranslationT
         className={`${styles.toggleOption} ${useMachine ? styles.active : ''}`}
         onClick={() => onChange(true)}
       >
-        🤖 Automática
+        🤖 Machine
       </button>
       <button
         className={`${styles.toggleOption} ${!useMachine ? styles.active : ''}`}
         onClick={() => onChange(false)}
       >
-        🧑 Humana
+        🧑 Human
       </button>
     </div>
   )

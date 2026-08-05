@@ -21,7 +21,7 @@ function renderSpanish(text: GodText, useMachine: boolean) {
       />
     )
   }
-  return <div className={styles.noTranslation}><span style={{fontStyle: 'normal'}}>{prefix}</span>(sin traducción)</div>
+  return <div className={styles.noTranslation}><span style={{fontStyle: 'normal'}}>{prefix}</span>(no translation)</div>
 }
 
 export default function GodCard({ god, useMachineTranslation }: GodCardProps) {
@@ -32,7 +32,7 @@ export default function GodCard({ god, useMachineTranslation }: GodCardProps) {
       <h3 className={styles.godName}>{god.name}</h3>
       {god.title && <div className={styles.godTitle}>{god.title}</div>}
 
-      <div className={styles.sectionTitle}>Descripción</div>
+      <div className={styles.sectionTitle}>Description</div>
       <div className={styles.textBlock}>
         <div className={styles.englishText}>
           {parseGlossaryText(highlightText(god.description.en), god.glossary, GlossaryTerm)}
@@ -40,7 +40,7 @@ export default function GodCard({ god, useMachineTranslation }: GodCardProps) {
         {renderSpanish(god.description, useMachineTranslation)}
       </div>
 
-      <div className={styles.sectionTitle}>Poderes</div>
+      <div className={styles.sectionTitle}>Powers</div>
       <div className={styles.textBlock}>
         <div className={styles.englishText}>
           {parseGlossaryText(highlightText(god.powers.en), god.glossary, GlossaryTerm)}
@@ -48,7 +48,7 @@ export default function GodCard({ god, useMachineTranslation }: GodCardProps) {
         {renderSpanish(god.powers, useMachineTranslation)}
       </div>
 
-      <div className={styles.sectionTitle}>Ira</div>
+      <div className={styles.sectionTitle}>Wrath</div>
       <div className={styles.textBlock}>
         <div className={styles.englishText}>
           {parseGlossaryText(highlightText(god.wrath.en), god.glossary, GlossaryTerm)}

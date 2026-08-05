@@ -47,7 +47,7 @@ export default function App() {
         <button className={styles.menuButton} onClick={() => setMobileMenuOpen(prev => !prev)}>
           ☰
         </button>
-        <span>⚔️ DCSS Vocabulario</span>
+        <span>⚔️ DCSS Help</span>
       </header>
       <Sidebar
         translated={translated}
@@ -57,8 +57,8 @@ export default function App() {
       />
       <main className={styles.mainContent}>
         <header className={styles.header}>
-          <h1>⛪ Dioses</h1>
-          <p>Descripciones, poderes e ira de los dioses de DCSS</p>
+          <h1>⛪ Gods</h1>
+          <p>Descriptions, powers and wrath of the DCSS gods</p>
         </header>
 
         <Legend />
@@ -69,13 +69,13 @@ export default function App() {
               className={`${styles.toggleOption} ${!showAll ? styles.active : ''}`}
               onClick={() => setShowAll(false)}
             >
-              ☀️ Dios del día
+              ☀️ God of the day
             </button>
             <button
               className={`${styles.toggleOption} ${showAll ? styles.active : ''}`}
               onClick={() => setShowAll(true)}
             >
-              📋 Todos
+              📋 All
             </button>
           </div>
           {showAll && (
@@ -93,15 +93,15 @@ export default function App() {
               ↑ Top
             </button>
             <button className={styles.viewToggle} onClick={() => setShowAll(true)}>
-              Ver todos los 27 dioses
+              See all 27 gods
             </button>
           </>
         ) : (
           <>
             {filteredGods.length === 0 ? (
               <div className={styles.noResults}>
-                <h3>No se encontraron resultados</h3>
-                <p>Intenta con otro término de búsqueda</p>
+                <h3>No results found</h3>
+                <p>Try a different search term</p>
               </div>
             ) : (
               <div className={styles.godCards}>
@@ -124,7 +124,7 @@ export default function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            ⭐ DCSS Help en GitHub
+            ⭐ DCSS Help on GitHub
           </a>
         </footer>
       </main>

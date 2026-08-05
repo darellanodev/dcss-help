@@ -1,13 +1,13 @@
 import styles from './Sidebar.module.css'
 
 const sections = [
-  { icon: '⛪', label: 'Dioses', active: true },
-  { icon: '🗡️', label: 'Objetos', disabled: true },
-  { icon: '🐉', label: 'Monstruos', disabled: true },
-  { icon: '🗺️', label: 'Ramas', disabled: true },
-  { icon: '🔮', label: 'Hechizos', disabled: true },
-  { icon: '💀', label: 'Mutaciones', disabled: true },
-  { icon: '⚔️', label: 'Habilidades', disabled: true },
+  { icon: '⛪', label: 'Gods', active: true },
+  { icon: '🗡️', label: 'Items', disabled: true },
+  { icon: '🐉', label: 'Monsters', disabled: true },
+  { icon: '🗺️', label: 'Branches', disabled: true },
+  { icon: '🔮', label: 'Spells', disabled: true },
+  { icon: '💀', label: 'Mutations', disabled: true },
+  { icon: '⚔️', label: 'Skills', disabled: true },
 ]
 
 interface SidebarProps {
@@ -32,22 +32,22 @@ export default function Sidebar({ translated, total, isOpen, onClose }: SidebarP
         aria-modal={isOpen}
         inert={!isOpen}
       >
-      <button className={styles.closeButton} onClick={onClose} aria-label="Cerrar menú">✕</button>
-      <h1>⚔️ DCSS Vocabulario</h1>
+      <button className={styles.closeButton} onClick={onClose} aria-label="Close menu">✕</button>
+      <h1>⚔️ DCSS Help</h1>
       <p className={styles.subtitle}>Dungeon Crawl Stone Soup</p>
 
       <div className={styles.progressSection}>
-        <div className={styles.progressTitle}>📊 Progreso de Traducción</div>
+        <div className={styles.progressTitle}>📊 Translation Progress</div>
         <div className={styles.progressBar}>
           <div className={styles.progressFill} style={{ width: `${percentage}%` }} />
         </div>
         <div className={styles.progressText}>
-          {translated}/{total} entradas traducidas ({percentage}%)
+          {translated}/{total} entries translated ({percentage}%)
         </div>
       </div>
 
       <nav className={styles.navSection}>
-        <div className={styles.navTitle}>📚 Secciones</div>
+        <div className={styles.navTitle}>📚 Sections</div>
         <ul className={styles.navLinks}>
           {sections.map(s => (
             <li key={s.label}>

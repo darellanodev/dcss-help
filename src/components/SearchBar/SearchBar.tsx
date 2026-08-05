@@ -10,7 +10,7 @@ export default function SearchBar({ value, onChange }: SearchBarProps) {
     <input
       type="text"
       className={styles.searchInput}
-      placeholder="🔍 Buscar dios (inglés o español)..."
+      placeholder="🔍 Search god (English or Spanish)..."
       value={value}
       onChange={e => onChange(e.target.value)}
     />

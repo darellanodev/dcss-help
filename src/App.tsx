@@ -117,6 +117,16 @@ export default function App() {
             )}
           </>
         )}
+
+        <footer className={styles.footer}>
+          <a
+            href="https://github.com/darellanodev/dcss-help"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ⭐ DCSS Help en GitHub
+          </a>
+        </footer>
       </main>
     </>
   )
